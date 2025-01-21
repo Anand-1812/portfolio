@@ -17,6 +17,7 @@ header {
     align-items: center;
     padding: 0 10px;
     background-color: #DFD3C3;
+    height: 80px;
 }
 
 .profile {
@@ -24,6 +25,18 @@ header {
     align-items: center;
     margin: 0 10px;
     padding: 10px;
+}
+
+.profile > .name {
+    font-size: 28px;
+    margin-left: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.name::after {
+    content: '';
+    display: none;
 }
 
 .photo {
@@ -37,6 +50,8 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 20px;
+    font-weight: bold;
 }
 
 li {
@@ -47,6 +62,7 @@ li {
 a {
     text-decoration: none;
     color: #C5705D;
+    font-size: 1.25rem;
 }
 
 a::after {
@@ -79,4 +95,18 @@ a:hover::after {
     margin: 0; 
     bottom: 0;
     width: 100%;
+}
+
+h1 {
+    font-size: 3rem;
+    padding: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.name-content {
+    display: block;
+    margin-top: 15px;
+    font-weight: 600;
 }
