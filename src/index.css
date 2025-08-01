@@ -5,9 +5,20 @@
   --accent-color: #E5DCC5;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: var(--font-family);
   background-color: var(--dark-color);
-  color: var(--light-color);
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #FFF2E0;
 }
