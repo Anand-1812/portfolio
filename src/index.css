@@ -1,0 +1,13 @@
+:root {
+  --font-family: "Inconsolata", monospace;
+  --dark-color: #2D2D2A;
+  --light-color: white;
+  --accent-color: #E5DCC5;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  background-color: var(--dark-color);
+  color: var(--light-color);
+}
