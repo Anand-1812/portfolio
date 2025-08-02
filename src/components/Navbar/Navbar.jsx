@@ -1,4 +1,3 @@
-// Navbar.jsx
 import './Navbar.css';
 import searchIconLight from '../../assets/search-w.png';
 import searchIconDark from '../../assets/search-b.png';
