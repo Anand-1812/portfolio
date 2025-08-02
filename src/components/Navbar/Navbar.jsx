@@ -1,16 +1,18 @@
-import './Navbar.css'
-import search_icon_light from '../../assets/search-w.png'
-import search_icon_dark from '../../assets/search-b.png'
-import toggle_light from '../../assets/night.png'
-import toggle_dark from '../../assets/day.png'
-
+// Navbar.jsx
+import './Navbar.css';
+import searchIconLight from '../../assets/search-w.png';
+import searchIconDark from '../../assets/search-b.png';
+import toggleLight from '../../assets/night.png';
+import toggleDark from '../../assets/day.png';
 
 function Navbar({ theme, setTheme }) {
-
-
   const toggleMode = () => {
-    theme === 'dark' ? setTheme('light') : setTheme('dark');
-  }
+    const newTheme = theme === 'dark' ? 'light' : 'dark';
+    setTheme(newTheme);
+  };
+
+  const searchIcon = theme === 'dark' ? searchIconDark : searchIconLight;
+  const toggleIcon = theme === 'dark' ? toggleDark : toggleLight;
 
   return (
     <div className="navbar">
@@ -22,12 +24,18 @@ function Navbar({ theme, setTheme }) {
       </ul>
       <div className="search-box">
         <input type="text" placeholder="Search" />
-        <img src={theme === 'dark' ? search_icon_dark : search_icon_light} alt='' />
+        <img src={searchIcon} alt="Search Icon" />
       </div>
-
-      <img onClick={() => toggleMode()} src={theme === 'dark' ? toggle_dark : toggle_light} alt="" className="theme-toggle" />
+      <img
+        src={toggleIcon}
+        alt="Toggle Theme"
+        className="navbar-theme-toggle"
+        data-testid="theme-toggle"
+        onClick={toggleMode}
+      />
     </div>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
+
