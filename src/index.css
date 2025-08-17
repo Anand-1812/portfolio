@@ -1,10 +1,23 @@
 :root {
   --font-family: "Inconsolata", monospace;
-  --dark-color: #2D2D2A;
-  --light-color: white;
-  --accent-color: #E5DCC5;
+  --color-bg: #FFF2E0;
+  --color-text: #222;
+  --color-navbar: #fff;
+  --color-search-bg: #242424;
+  --color-search-text: #fff;
+  --color-accent: #E5DCC5;
+  --transition-speed: 0.3s;
 }
 
+.dark {
+  --color-bg: #222;
+  --color-text: #fff;
+  --color-navbar: #000;
+  --color-search-bg: #fff;
+  --color-search-text: #222;
+}
+
+/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -12,18 +25,16 @@
 }
 
 body {
-  margin: 0;
   font-family: var(--font-family);
-  background-color: var(--dark-color);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  transition: background-color var(--transition-speed), color var(--transition-speed);
 }
 
 .container {
   width: 100vw;
   height: 100vh;
-  background-color: #FFF2E0;
-  transition: 0.7s;
+  background-color: var(--color-bg);
+  transition: background-color var(--transition-speed);
 }
 
-.container.dark {
-  background: #222;
-}

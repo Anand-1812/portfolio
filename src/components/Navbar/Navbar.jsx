@@ -16,22 +16,26 @@ function Navbar({ theme, setTheme }) {
   return (
     <div className="navbar">
       <h1>Anand Kumar</h1>
-      <ul>
-        <li>Home</li>
-        <li>Projects</li>
-        <li>About</li>
-      </ul>
-      <div className="search-box">
-        <input type="text" placeholder="Search" />
-        <img src={searchIcon} alt="Search Icon" />
+      <div className='link'>
+        <ul>
+          <li>Home</li>
+          <li>Projects</li>
+          <li>About</li>
+        </ul>
       </div>
-      <img
-        src={toggleIcon}
-        alt="Toggle Theme"
-        className="navbar-theme-toggle"
-        data-testid="theme-toggle"
-        onClick={toggleMode}
-      />
+      <div className='right'>
+        <div className="search-box">
+          <input type="text" placeholder="Search" />
+          <img src={searchIcon} alt="Search Icon" />
+        </div>
+        <img
+          src={toggleIcon}
+          alt="Toggle Theme"
+          className="navbar-theme-toggle"
+          data-testid="theme-toggle"
+          onClick={toggleMode}
+        />
+      </div> 
     </div>
   );
 }
