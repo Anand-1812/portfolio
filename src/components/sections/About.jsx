@@ -2,14 +2,13 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
   const frontendSkills = [
+    "JavaScrpt",
     "React",
     "Vue",
-    "TypeScript",
     "TailwindCSS",
-    "Svelte",
   ];
 
-  const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
+  const backendSkills = ["Node.js"];
 
   return (
     <section
@@ -25,7 +24,7 @@ export const About = () => {
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
-              Passionate developer with expertise in building scalable web
+              Passionate developer with expertise in building web
               applications and creating innovative solutions.
             </p>
 
@@ -69,12 +68,11 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> B.S. in Computer Science </strong> - XYZ University
-                  (2016-2020)
+                  <strong> B.Tech in Computer Science </strong> - KIIT-DU
+                  (2023-current)
                 </li>
                 <li>
-                  Relevant Coursework: Data Structures, Web Development, Cloud
-                  Computing...
+                  Relevant Coursework: Data Structures, Web Development
                 </li>
               </ul>
             </div>
@@ -83,23 +81,15 @@ export const About = () => {
               <div className="space-y-4 text-gray-300">
                 <div>
                   <h4 className="font-semibold">
-                    {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
                   </h4>
                   <p>
-                    Developed and maintained microservices for cloud-based
-                    applications.
                   </p>
                 </div>
 
                 <div>
                   <h4 className="font-semibold">
-                    {" "}
-                    Intern at DEF Startups (2019){" "}
                   </h4>
                   <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
                   </p>
                 </div>
               </div>

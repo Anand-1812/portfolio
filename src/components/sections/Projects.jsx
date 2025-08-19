@@ -52,7 +52,7 @@ export const Projects = () => {
                 Built an AI chat app similar to gemini clone using google gemini APi
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Python", "TensorFlow", "D3.js", "Flask"].map((tech, key) => (
+                {["HTML", "CSS", "REACT", "google gemini API"].map((tech, key) => (
                   <span
                     key={key}
                     className="
