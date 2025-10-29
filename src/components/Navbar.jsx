@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Menu } from "lucide-react";
 
 export const Navbar = ({ menuOpen, setMenuOpen }) => {
   useEffect(() => {
@@ -17,7 +18,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
             className="w-7 h-5 relative cursor-pointer z-40 md:hidden"
             onClick={() => setMenuOpen((prev) => !prev)}
           >
-            &#9776;
+            <Menu />
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
