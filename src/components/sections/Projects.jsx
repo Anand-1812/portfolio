@@ -1,100 +1,111 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const Projects = () => {
+  const projects = [
+    {
+      title: "Shopping Cart",
+      desc: "A clean and responsive shopping cart built using Fake Store API.",
+      tech: ["HTML", "CSS", "React", "JavaScript"],
+      link: "https://anand-1812.github.io/shopping-cart",
+    },
+    {
+      title: "AI Chat App",
+      desc: "An AI-powered chat application built using Google Gemini API.",
+      tech: ["HTML", "CSS", "React", "Google Gemini API"],
+      link: "https://anand-1812.github.io/gemini-clone",
+    },
+    {
+      title: "Streako",
+      desc: "A habit tracker inspired by GitHub and LeetCode streak tracking.",
+      tech: [
+        "JavaScript",
+        "TailwindCSS",
+        "React",
+        "Express.js",
+        "MongoDB",
+        "Node.js",
+      ],
+      link: "https://streako-tracker.vercel.app",
+    },
+  ];
+
   return (
     <section
       id="projects"
-      className="min-h-screen flex items-center justify-center py-20"
+      className="min-h-screen flex items-center justify-center py-28 px-6"
     >
       <RevealOnScroll>
-        <div className="max-w-5xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
+        <div className="max-w-5xl mx-auto">
+          {/* Title */}
+          <h2
+            className="
+              text-4xl font-bold mb-14 text-center
+              bg-gradient-to-r from-[#82aaff] to-[#7dcfff]
+              bg-clip-text text-transparent
+            "
+          >
             Featured Projects
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-
-            {/* Shopping Cart */}
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
-              <h3 className="text-xl font-bold mb-2">Shopping Cart</h3>
-              <p className="text-gray-400 mb-4">
-                A shopping cart website built using the Fake Store API.
-              </p>
-
-              <div className="flex flex-wrap gap-2 mb-4">
-                {["HTML", "CSS", "React", "JavaScript"].map((tech, key) => (
-                  <span
-                    key={key}
-                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
-
-              <a
-                href="https://anand-1812.github.io/shopping-cart"
-                className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+          {/* Project Cards */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {projects.map((p, i) => (
+              <div
+                key={i}
+                className="
+                  p-8 rounded-2xl
+                  bg-[#1a1b26]/40 backdrop-blur-lg
+                  border border-[#2d3f76]/60
+                  shadow-[0_0_20px_rgba(0,0,0,0.3)]
+                  transition-all duration-300
+                  hover:-translate-y-1
+                  hover:shadow-[0_0_25px_rgba(122,162,247,0.25)]
+                "
               >
-                View Project →
-              </a>
-            </div>
+                <h3 className="text-2xl font-semibold mb-3 text-[#c0caf5]">
+                  {p.title}
+                </h3>
 
-            {/* AI Chat App */}
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)] transition-all">
-              <h3 className="text-xl font-bold mb-2">AI Chat App</h3>
-              <p className="text-gray-400 mb-4">
-                An AI chat application built using the Google Gemini API.
-              </p>
+                <p className="text-[#9aa5ce] mb-5 leading-relaxed">{p.desc}</p>
 
-              <div className="flex flex-wrap gap-2 mb-4">
-                {["HTML", "CSS", "React", "Google Gemini API"].map((tech, key) => (
-                  <span
-                    key={key}
-                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:-translate-y-0.5 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all"
-                  >
-                    {tech}
-                  </span>
-                ))}
+                {/* Tech Tags */}
+                <div className="flex flex-wrap gap-2 mb-6">
+                  {p.tech.map((tech) => (
+                    <span
+                      key={tech}
+                      className="
+                        px-3 py-1.5 rounded-full text-sm
+                        bg-[#82aaff]/10 text-[#82aaff]
+                        border border-[#3e5a9b]/40
+                        transition-all duration-200
+                        hover:bg-[#82aaff]/20
+                        hover:shadow-[0_0_10px_rgba(122,162,247,0.3)]
+                      "
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+
+                {/* View Project Link */}
+                <a
+                  href={p.link}
+                  className="
+                    inline-block mt-2 text-[#7dcfff] font-medium
+                    hover:text-[#89ddff]
+                    hover:underline underline-offset-4
+                    transition-all
+                  "
+                  target="_blank"
+                >
+                  View Project →
+                </a>
               </div>
-
-              <a
-                href="https://anand-1812.github.io/gemini-clone"
-                className="text-blue-400 hover:text-blue-300 transition-colors my-4"
-              >
-                View Project →
-              </a>
-            </div>
-
-            {/* Streako */}
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)] transition-all">
-              <h3 className="text-xl font-bold mb-2">Streako</h3>
-              <p className="text-gray-400 mb-4">
-                A modern habit tracker app that tracks daily streaks like GitHub and LeetCode.
-              </p>
-
-              <div className="flex flex-wrap gap-2 mb-4">
-                {["JavaScript", "TailwindCSS", "React", "Express.js", "MongoDB", "Node.js"].map((tech, key) => (
-                  <span
-                    key={key}
-                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:-translate-y-0.5 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all"
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
-
-              <a
-                href="https://streako-tracker.vercel.app"
-                className="text-blue-400 hover:text-blue-300 transition-colors my-4"
-              >
-                View Project →
-              </a>
-            </div>
-
+            ))}
           </div>
         </div>
       </RevealOnScroll>
     </section>
   );
 };
+

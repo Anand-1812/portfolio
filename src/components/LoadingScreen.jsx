@@ -6,6 +6,7 @@ export const LoadingScreen = ({ onComplete }) => {
 
   useEffect(() => {
     let index = 0;
+
     const interval = setInterval(() => {
       setText(fullText.substring(0, index));
       index++;
@@ -15,22 +16,27 @@ export const LoadingScreen = ({ onComplete }) => {
 
         setTimeout(() => {
           onComplete();
-        }, 1000);
+        }, 600);
       }
-    }, 100);
+    }, 80);
 
     return () => clearInterval(interval);
   }, [onComplete]);
 
   return (
-    <div className="fixed inset-0 z-50 bg-black text-gray-100 flex flex-col items-center justify-center">
-      <div className="mb-4 text-4xl font-mono font-bold">
-        {text} <span className="animate-blink ml-1"> | </span>
+    <div className="fixed inset-0 z-50 bg-[#0f0f16] flex flex-col items-center justify-center text-[#c0caf5]">
+
+      {/* Typing Text */}
+      <div className="text-4xl font-mono font-bold tracking-wide flex items-center">
+        {text}
+        <span className="ml-1 h-8 w-[2px] bg-[#7aa2f7] animate-pulse"></span>
       </div>
 
-      <div className="w-[200px] h-[2px] bg-gray-800 rounded relative overflow-hidden">
-        <div className="w-[40%] h-full bg-blue-500 shadow-[0_0_15px_#3b82f6] animate-loading-bar"></div>
+      {/* Loader Bar */}
+      <div className="mt-6 w-56 h-[3px] bg-[#1a1b26] rounded overflow-hidden">
+        <div className="h-full bg-[#7aa2f7] animate-loadingPulse"></div>
       </div>
     </div>
   );
 };
+

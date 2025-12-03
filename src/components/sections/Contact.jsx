@@ -36,63 +36,111 @@ export const Contact = () => {
   return (
     <section
       id="contact"
-      className="min-h-screen flex items-center justify-center py-20"
+      className="min-h-screen flex items-center justify-center py-28 px-24"
     >
       <RevealOnScroll>
-        <div className="px-4 w-full min-w-[300px] md:w-[500px] sm:w-2/3 p-6">
-          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
+        <div className="max-w-3xl mx-auto">
+
+          {/* Title */}
+          <h2
+            className="
+              text-4xl font-bold mb-12 text-center
+              bg-gradient-to-r from-[#82aaff] to-[#7dcfff]
+              bg-clip-text text-transparent
+            "
+          >
             Get In Touch
           </h2>
 
-          <form className="space-y-6" onSubmit={handleSubmit}>
-            <div className="relative">
+          {/* Form */}
+          <form
+            className="
+              space-y-6 rounded-2xl p-8
+              bg-[#1a1b26]/40 border border-[#2d3f76]/60
+              backdrop-blur-xl shadow-[0_0_20px_rgba(0,0,0,0.3)]
+            "
+            onSubmit={handleSubmit}
+          >
+            {/* Name */}
+            <div>
               <input
                 type="text"
-                id="name"
-                name="name"
                 required
                 value={formData.name}
-                className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
-                placeholder="Name..."
+                placeholder="Your Name"
+                className="
+                  w-full px-4 py-3
+                  bg-[#24283b]/40 text-[#c0caf5]
+                  border border-[#2d3f76]/60 rounded-lg
+                  placeholder:text-[#565f89]
+                  focus:outline-none
+                  focus:border-[#7aa2f7]
+                  focus:bg-[#24283b]/60
+                  transition-all duration-200
+                "
                 onChange={(e) =>
                   setFormData({ ...formData, name: e.target.value })
                 }
               />
             </div>
 
-            <div className="relative">
+            {/* Email */}
+            <div>
               <input
                 type="email"
-                id="email"
-                name="email"
                 required
                 value={formData.email}
-                className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
                 placeholder="example@gmail.com"
+                className="
+                  w-full px-4 py-3
+                  bg-[#24283b]/40 text-[#c0caf5]
+                  border border-[#2d3f76]/60 rounded-lg
+                  placeholder:text-[#565f89]
+                  focus:outline-none
+                  focus:border-[#7aa2f7]
+                  focus:bg-[#24283b]/60
+                  transition-all duration-200
+                "
                 onChange={(e) =>
                   setFormData({ ...formData, email: e.target.value })
                 }
               />
             </div>
 
-            <div className="relative">
+            {/* Message */}
+            <div>
               <textarea
-                id="message"
-                name="message"
+                rows={6}
                 required
-                rows={5}
                 value={formData.message}
-                className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
-                placeholder="Your Message..."
+                placeholder="Your message..."
+                className="
+                  w-full px-4 py-3
+                  bg-[#24283b]/40 text-[#c0caf5]
+                  border border-[#2d3f76]/60 rounded-lg
+                  placeholder:text-[#565f89]
+                  focus:outline-none
+                  focus:border-[#7aa2f7]
+                  focus:bg-[#24283b]/60
+                  transition-all duration-200
+                "
                 onChange={(e) =>
                   setFormData({ ...formData, message: e.target.value })
                 }
               />
             </div>
 
+            {/* Submit Button */}
             <button
               type="submit"
-              className="w-full bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
+              className="
+                w-full py-3 rounded-xl font-semibold text-[#1a1b26]
+                bg-gradient-to-r from-[#7aa2f7] to-[#89ddff]
+                shadow-[0_0_15px_rgba(122,162,247,0.4)]
+                transition-all duration-200
+                hover:-translate-y-0.5 hover:shadow-[0_0_25px_rgba(122,162,247,0.55)]
+                cursor-pointer
+              "
             >
               Send Message
             </button>
@@ -102,3 +150,4 @@ export const Contact = () => {
     </section>
   );
 };
+

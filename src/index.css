@@ -8,29 +8,56 @@ html, body {
   color: #f3f4f6;
 }
 
-@layer utilities {
-
-  @keyframes blink {
-    0%, 100% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0;
-    }
-  }
-  .animate-blink {
-    animation: blink 0.8s step-end infinite;
-  }
-
-  @keyframes loading {
-    0% {
-      transform: translateX(-100%);
-    }
-    100% {
-      transform: translateX(250%);
-    }
-  }
-  .animate-loading-bar {
-    animation: loading 0.8s ease infinite;
-  }
+@keyframes loadingPulse {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(200%); }
 }
+
+.animate-loadingPulse {
+  animation: loadingPulse 1s linear infinite;
+}
+
+/* Base state */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  filter: blur(6px);
+  transition:
+    opacity 0.8s ease,
+    transform 0.8s ease,
+    filter 0.8s ease;
+}
+
+/* When visible */
+.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+  filter: blur(0);
+}
+
+/* Direction Variants */
+.reveal-up {
+  transform: translateY(25px);
+}
+
+.reveal-down {
+  transform: translateY(-25px);
+}
+
+.reveal-left {
+  transform: translateX(25px);
+}
+
+.reveal-right {
+  transform: translateX(-25px);
+}
+
+.reveal-zoom {
+  transform: scale(0.85);
+}
+
+.reveal-visible.reveal-zoom {
+  transform: scale(1);
+}
+
+

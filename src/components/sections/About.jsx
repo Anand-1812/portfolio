@@ -1,44 +1,80 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
+
   const frontendSkills = [
     "HTML",
     "CSS",
-    "JavaScrpt",
+    "JavaScript",
     "React",
     "TailwindCSS",
   ];
 
-  const backendSkills = ["Node.js", "ExpressJs", "MongoDB"];
+  const backendSkills = ["Node.js", "Express.js", "MongoDB"];
 
   return (
     <section
       id="about"
-      className="min-h-screen flex items-center justify-center py-20"
+      className="min-h-screen flex items-center justify-center py-28 px-6"
     >
       <RevealOnScroll>
-        <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
-            {" "}
+        <div className="max-w-4xl mx-auto">
+
+          {/* Title */}
+          <h2
+            className="
+              text-4xl font-bold mb-12 text-center
+              bg-gradient-to-r from-[#82aaff] via-[#7dcfff] to-[#bb9af7]
+              bg-clip-text text-transparent
+            "
+          >
             About Me
           </h2>
 
-          <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
-            <p className="text-gray-300 mb-6">
-              Developer in progress, love to build clean web
-              applications and creating innovative solutions.
+          {/* Intro Card */}
+          <div
+            className="
+              rounded-2xl p-10
+              border border-[#2d3f76]/60
+              bg-[#1a1b26]/40 backdrop-blur-lg
+              shadow-[0_0_20px_rgba(0,0,0,0.3)]
+              transition-all hover:-translate-y-1 hover:shadow-[0_0_25px_rgba(122,162,247,0.25)]
+            "
+          >
+            <p className="text-[#9aa5ce] mb-10 leading-relaxed text-lg">
+              I’m a passionate developer who loves crafting clean, high-performance
+              web applications with engaging UI/UX. My focus is on building scalable
+              solutions that balance design, speed, and functionality — while
+              continuously learning and improving my craft.
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4"> Frontend</h3>
-                <div className="flex flex-wrap gap-2">
-                  {frontendSkills.map((tech, key) => (
+            {/* Skills Grid */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+              {/* Frontend */}
+              <div
+                className="
+                  rounded-xl p-6
+                  bg-[#24283b]/40 border border-[#2d3f76]/60
+                  backdrop-blur-sm shadow-sm
+                  transition-all hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(122,162,247,0.2)]
+                "
+              >
+                <h3 className="text-2xl font-semibold mb-4 text-[#c0caf5]">
+                  Frontend
+                </h3>
+                <div className="flex flex-wrap gap-3">
+                  {frontendSkills.map((tech) => (
                     <span
-                      key={key}
-                      className="cursor-pointer bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
-                                    hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition
-                    "
+                      key={tech}
+                      className="
+                        cursor-pointer px-4 py-1.5 rounded-full text-sm
+                        bg-[#82aaff]/10 text-[#82aaff]
+                        border border-[#3e5a9b]/40
+                        transition-all duration-200
+                        hover:bg-[#82aaff]/20
+                        hover:shadow-[0_0_12px_rgba(122,162,247,0.35)]
+                      "
                     >
                       {tech}
                     </span>
@@ -46,56 +82,88 @@ export const About = () => {
                 </div>
               </div>
 
-              <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4"> Backend</h3>
-                <div className="flex flex-wrap gap-2">
-                  {backendSkills.map((tech, key) => (
+              {/* Backend */}
+              <div
+                className="
+                  rounded-xl p-6
+                  bg-[#24283b]/40 border border-[#2d3f76]/60
+                  backdrop-blur-sm shadow-sm
+                  transition-all hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(122,162,247,0.2)]
+                "
+              >
+                <h3 className="text-2xl font-semibold mb-4 text-[#c0caf5]">
+                  Backend
+                </h3>
+                <div className="flex flex-wrap gap-3">
+                  {backendSkills.map((tech) => (
                     <span
-                      key={key}
-                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
-                                    hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition
-                    "
+                      key={tech}
+                      className="
+                        cursor-pointer px-4 py-1.5 rounded-full text-sm
+                        bg-[#89ddff]/10 text-[#89ddff]
+                        border border-[#3e5a9b]/40
+                        transition-all duration-200
+                        hover:bg-[#89ddff]/20
+                        hover:shadow-[0_0_12px_rgba(137,221,255,0.35)]
+                      "
                     >
                       {tech}
                     </span>
                   ))}
                 </div>
               </div>
+
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
-              <ul className="list-disc list-inside text-gray-300 space-y-2">
+          {/* Education + Work */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
+
+            {/* Education */}
+            <div
+              className="
+                p-8 rounded-xl
+                bg-[#1a1b26]/40 border border-[#2d3f76]/60
+                backdrop-blur-lg shadow-sm
+                transition-all hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(122,162,247,0.25)]
+              "
+            >
+              <h3 className="text-2xl font-semibold mb-4 text-[#c0caf5]">
+                🏫 Education
+              </h3>
+              <ul className="list-disc list-inside text-[#9aa5ce] space-y-2">
                 <li>
-                  <strong> B.Tech in Computer Science </strong> - KIIT-DU
-                  (2023-current)
+                  <strong className="text-[#c0caf5]">
+                    B.Tech in Computer Science
+                  </strong>{" "}
+                  – KIIT-DU (2023–current)
                 </li>
               </ul>
             </div>
-            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
-              <div className="space-y-4 text-gray-300">
-                <div>
-                  <h4 className="font-semibold">
-                    looking for experience
-                  </h4>
-                  <p>
-                  </p>
-                </div>
 
-                <div>
-                  <h4 className="font-semibold">
-                  </h4>
-                  <p>
-                  </p>
-                </div>
-              </div>
+            {/* Experience */}
+            <div
+              className="
+                p-8 rounded-xl
+                bg-[#1a1b26]/40 border border-[#2d3f76]/60
+                backdrop-blur-lg shadow-sm
+                transition-all hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(122,162,247,0.25)]
+              "
+            >
+              <h3 className="text-2xl font-semibold mb-4 text-[#c0caf5]">
+                💼 Work Experience
+              </h3>
+              <p className="text-[#9aa5ce]">
+                Currently seeking opportunities to gain hands-on professional experience
+                and contribute to real-world projects.
+              </p>
             </div>
+
           </div>
+
         </div>
       </RevealOnScroll>
     </section>
   );
 };
+
