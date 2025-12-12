@@ -5,17 +5,17 @@ export const Home = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center relative px-6"
+      className="min-h-screen flex items-center justify-center relative px-4 md:px-6"
     >
       <RevealOnScroll>
-        <div className="text-center z-10">
+        <div className="text-center z-10 px-4">
 
           {/* Gradient Title */}
           <h1 className="
             text-5xl md:text-7xl font-bold mb-6
             bg-gradient-to-r from-[#82aaff] to-[#7dcfff]
             bg-clip-text text-transparent
-            leading-tight tracking-tight
+            leading-right tracking-tight
           ">
             Hi, I'm Anand Kumar
           </h1>
@@ -27,13 +27,13 @@ export const Home = () => {
             max-w-3xl mx-auto mb-10
             leading-relaxed
           ">
-            I like building things that looks clean, works fast and feel effortless.
-            Currently learning machine learning, and imrpoving my problem solving skills
-            throguh DSA.
+            I like building things that look clean, work fast, and feel effortless.
+            Currently learning machine learning and improving my problem-solving skills
+            through DSA.
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex items-center justify-center gap-6">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-6">
 
             {/* Primary Button - Download CV */}
             <a
@@ -52,6 +52,7 @@ export const Home = () => {
               <Download className="w-5 h-5" /> Download CV
             </a>
 
+            {/* Social Icons */}
             <div className="flex gap-4">
 
               {/* GitHub */}
@@ -98,7 +99,7 @@ export const Home = () => {
                 <Linkedin className="w-6 h-6" />
               </a>
 
-              {/* LeetCode (using Code icon as proxy) */}
+              {/* LeetCode */}
               <a
                 href="https://leetcode.com/u/anand_1812"
                 target="_blank"
