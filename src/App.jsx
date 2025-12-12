@@ -34,7 +34,7 @@ function App() {
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 
         {/* Sections */}
-        <main className="pt-32 flex flex-col gap-40">
+        <main className="flex flex-col gap-40">
           <Home />
           <About />
           <Projects />
