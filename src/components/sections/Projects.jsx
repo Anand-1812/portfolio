@@ -6,7 +6,7 @@ export const Projects = () => {
       title: "Shopping Cart",
       desc: "A clean and responsive shopping cart built using Fake Store API.",
       tech: ["HTML", "CSS", "React", "JavaScript"],
-      link: "https://anand-1812.github.io/shopping-cart",
+      link: "https://shopping-cart-fake.vercel.app",
     },
     {
       title: "AI Chat App",
