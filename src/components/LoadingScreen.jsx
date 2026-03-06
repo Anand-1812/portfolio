@@ -24,19 +24,18 @@ export const LoadingScreen = ({ onComplete }) => {
   }, [onComplete]);
 
   return (
-    <div className="fixed inset-0 z-50 bg-[#0f0f16] flex flex-col items-center justify-center text-[#c0caf5]">
+    <div className="fixed inset-0 z-50 bg-black flex flex-col items-center justify-center text-white">
 
       {/* Typing Text */}
       <div className="text-4xl font-mono font-bold tracking-wide flex items-center">
         {text}
-        <span className="ml-1 h-8 w-[2px] bg-[#7aa2f7] animate-pulse"></span>
+        <span className="ml-1 h-8 w-[2px] bg-white animate-pulse"></span>
       </div>
 
       {/* Loader Bar */}
-      <div className="mt-6 w-56 h-[3px] bg-[#1a1b26] rounded overflow-hidden">
-        <div className="h-full bg-[#7aa2f7] animate-loadingPulse"></div>
+      <div className="mt-6 w-56 h-[3px] bg-[#1a1a1a] rounded overflow-hidden">
+        <div className="h-full bg-white animate-loadingPulse"></div>
       </div>
     </div>
   );
 };
-

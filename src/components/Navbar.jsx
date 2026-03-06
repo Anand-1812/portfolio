@@ -14,9 +14,9 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
             flex justify-between items-center
             px-6 py-3
             rounded-2xl
-            bg-[#1a1b26]/80
+            bg-[#111111]/85
             backdrop-blur-xl
-            border border-[#2d3f76]/60
+            border border-white/10
             shadow-[0_0_20px_rgba(1,1,1,1)]
           "
         >
@@ -25,17 +25,17 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
             className="w-full flex justify-between items-center md:hidden"
             onClick={() => setMenuOpen((prev) => !prev)}
           >
-            <h1 className="text-lg font-mono text-[#c0caf5] tracking-wide">
-              Anand<span className="text-[#7aa2f7]">.tech</span>
+            <h1 className="text-lg font-mono text-white tracking-wide">
+              Anand<span className="text-gray-200">.tech</span>
             </h1>
-            <Menu className="text-[#7dcfff]" />
+            <Menu className="text-white" />
           </div>
 
           {/* Desktop */}
           <div className="hidden md:flex items-center justify-between w-full">
             {/* Logo */}
-            <h1 className="text-xl font-mono text-[#c0caf5] tracking-wide">
-              Anand<span className="text-[#7aa2f7]">.tech</span>
+            <h1 className="text-xl font-mono text-white tracking-wide">
+              Anand<span className="text-gray-200">.tech</span>
             </h1>
 
             {/* Nav Buttons */}
@@ -52,15 +52,15 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
                   className="
                     px-4 py-2 rounded-xl
                     font-medium
-                    text-[#c0caf5]
-                    bg-[#24283b]/40
-                    border border-[#2d3f76]/60
+                    text-white
+                    bg-[#1a1a1a]/70
+                    border border-white/10
                     backdrop-blur-sm
                     transition-all duration-200
-                    hover:bg-[#2f3549]/60
-                    hover:border-[#3e5a9b]
-                    hover:text-[#7dcfff]
-                    shadow-sm hover:shadow-[0_0_12px_rgba(58,132,255,0.25)]
+                    hover:bg-[#222222]
+                    hover:border-white/20
+                    hover:text-gray-100
+                    shadow-sm hover:shadow-[0_0_12px_rgba(255,255,255,0.08)]
                   "
                 >
                   {link.name}
@@ -73,4 +73,3 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
     </nav>
   );
 };
-

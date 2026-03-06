@@ -40,8 +40,7 @@ export const Projects = () => {
           <h2
             className="
               text-4xl font-bold mb-14 text-center
-              bg-gradient-to-r from-[#82aaff] to-[#7dcfff]
-              bg-clip-text text-transparent
+              text-white
             "
           >
             Featured Projects
@@ -54,19 +53,19 @@ export const Projects = () => {
                 key={i}
                 className="
                   p-8 rounded-2xl
-                  bg-[#1a1b26]/40 backdrop-blur-lg
-                  border border-[#2d3f76]/60
+                  bg-[#111111]/60 backdrop-blur-lg
+                  border border-white/10
                   shadow-[0_0_20px_rgba(0,0,0,0.3)]
                   transition-all duration-300
                   hover:-translate-y-1
-                  hover:shadow-[0_0_25px_rgba(122,162,247,0.25)]
+                  hover:shadow-[0_0_25px_rgba(255,255,255,0.08)]
                 "
               >
-                <h3 className="text-2xl font-semibold mb-3 text-[#c0caf5]">
+                <h3 className="text-2xl font-semibold mb-3 text-white">
                   {p.title}
                 </h3>
 
-                <p className="text-[#9aa5ce] mb-5 leading-relaxed">{p.desc}</p>
+                <p className="text-gray-200 mb-5 leading-relaxed">{p.desc}</p>
 
                 {/* Tech Tags */}
                 <div className="flex flex-wrap gap-2 mb-6">
@@ -75,11 +74,11 @@ export const Projects = () => {
                       key={tech}
                       className="
                         px-3 py-1.5 rounded-full text-sm
-                        bg-[#82aaff]/10 text-[#82aaff]
-                        border border-[#3e5a9b]/40
+                        bg-white/5 text-white
+                        border border-white/10
                         transition-all duration-200
-                        hover:bg-[#82aaff]/20
-                        hover:shadow-[0_0_10px_rgba(122,162,247,0.3)]
+                        hover:bg-white/10
+                        hover:shadow-[0_0_10px_rgba(255,255,255,0.08)]
                       "
                     >
                       {tech}
@@ -91,8 +90,8 @@ export const Projects = () => {
                 <a
                   href={p.link}
                   className="
-                    inline-block mt-2 text-[#7dcfff] font-medium
-                    hover:text-[#89ddff]
+                    inline-block mt-2 text-white font-medium
+                    hover:text-gray-100
                     hover:underline underline-offset-4
                     transition-all
                   "
@@ -108,4 +107,3 @@ export const Projects = () => {
     </section>
   );
 };
-

@@ -28,13 +28,13 @@ export const Contact = () => {
         toast.custom(
           <div className="
             p-4 rounded-xl
-            bg-[#1a1b26]/80 backdrop-blur-md
-            border border-[#2d3f76]/60
-            text-[#c0caf5]
-            shadow-[0_0_20px_rgba(122,162,247,0.2)]
+            bg-[#111111]/85 backdrop-blur-md
+            border border-white/10
+            text-white
+            shadow-[0_0_20px_rgba(255,255,255,0.08)]
             flex items-center gap-3
           ">
-            <span className="text-[#7aa2f7] text-lg">✅</span>
+            <span className="text-white text-lg">✓</span>
             <span className="font-medium">Message sent successfully!</span>
           </div>
         );
@@ -45,13 +45,13 @@ export const Contact = () => {
         toast.custom(
           <div className="
             p-4 rounded-xl
-            bg-[#1a1b26]/80 backdrop-blur-md
-            border border-red-500/50
-            text-[#c0caf5]
-            shadow-[0_0_20px_rgba(239,68,68,0.2)]
+            bg-[#111111]/85 backdrop-blur-md
+            border border-white/10
+            text-white
+            shadow-[0_0_20px_rgba(255,255,255,0.08)]
             flex items-center gap-3
           ">
-            <span className="text-red-500 text-lg">❌</span>
+            <span className="text-gray-100 text-lg">×</span>
             <span className="font-medium">Oops! Something went wrong.</span>
           </div>
         );
@@ -73,8 +73,7 @@ export const Contact = () => {
           <h2
             className="
               text-4xl font-bold mb-12 text-center
-              bg-gradient-to-r from-[#82aaff] to-[#7dcfff]
-              bg-clip-text text-transparent
+              text-white
             "
           >
             Get In Touch
@@ -84,7 +83,7 @@ export const Contact = () => {
           <form
             className="
               space-y-6 rounded-2xl p-8
-              bg-[#1a1b26]/40 border border-[#2d3f76]/60
+              bg-[#111111]/60 border border-white/10
               backdrop-blur-xl shadow-[0_0_20px_rgba(0,0,0,0.3)]
             "
             onSubmit={handleSubmit}
@@ -98,12 +97,12 @@ export const Contact = () => {
                 placeholder="Your Name"
                 className="
                   w-full px-4 py-3
-                  bg-[#24283b]/40 text-[#c0caf5]
-                  border border-[#2d3f76]/60 rounded-lg
-                  placeholder:text-[#565f89]
+                  bg-[#1a1a1a]/70 text-white
+                  border border-white/10 rounded-lg
+                  placeholder:text-gray-500
                   focus:outline-none
-                  focus:border-[#7aa2f7]
-                  focus:bg-[#24283b]/60
+                  focus:border-white/30
+                  focus:bg-[#222222]
                   transition-all duration-200
                 "
                 onChange={(e) =>
@@ -121,12 +120,12 @@ export const Contact = () => {
                 placeholder="example@gmail.com"
                 className="
                   w-full px-4 py-3
-                  bg-[#24283b]/40 text-[#c0caf5]
-                  border border-[#2d3f76]/60 rounded-lg
-                  placeholder:text-[#565f89]
+                  bg-[#1a1a1a]/70 text-white
+                  border border-white/10 rounded-lg
+                  placeholder:text-gray-500
                   focus:outline-none
-                  focus:border-[#7aa2f7]
-                  focus:bg-[#24283b]/60
+                  focus:border-white/30
+                  focus:bg-[#222222]
                   transition-all duration-200
                 "
                 onChange={(e) =>
@@ -144,12 +143,12 @@ export const Contact = () => {
                 placeholder="Your message..."
                 className="
                   w-full px-4 py-3
-                  bg-[#24283b]/40 text-[#c0caf5]
-                  border border-[#2d3f76]/60 rounded-lg
-                  placeholder:text-[#565f89]
+                  bg-[#1a1a1a]/70 text-white
+                  border border-white/10 rounded-lg
+                  placeholder:text-gray-500
                   focus:outline-none
-                  focus:border-[#7aa2f7]
-                  focus:bg-[#24283b]/60
+                  focus:border-white/30
+                  focus:bg-[#222222]
                   transition-all duration-200
                 "
                 onChange={(e) =>
@@ -162,11 +161,11 @@ export const Contact = () => {
             <button
               type="submit"
               className="
-                w-full py-3 rounded-xl font-semibold text-[#1a1b26]
-                bg-gradient-to-r from-[#7aa2f7] to-[#89ddff]
-                shadow-[0_0_15px_rgba(122,162,247,0.4)]
+                w-full py-3 rounded-xl font-semibold text-black
+                bg-gradient-to-r from-white to-gray-300
+                shadow-[0_0_15px_rgba(255,255,255,0.16)]
                 transition-all duration-200
-                hover:-translate-y-0.5 hover:shadow-[0_0_25px_rgba(122,162,247,0.55)]
+                hover:-translate-y-0.5 hover:shadow-[0_0_25px_rgba(255,255,255,0.2)]
                 cursor-pointer
               "
             >

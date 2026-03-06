@@ -13,7 +13,7 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
       className={`
         fixed top-0 left-0 w-full z-40
         backdrop-blur-xl
-        bg-[#1a1b26]/80
+        bg-[#111111]/90
         transition-all duration-300 ease-in-out
         flex flex-col items-center justify-center
         ${
@@ -26,10 +26,10 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
       {/* Close Button */}
       <button
         onClick={() => setMenuOpen(false)}
-        className="absolute top-5 right-5 text-[#c0caf5] text-3xl"
+        className="absolute top-5 right-5 text-white text-3xl"
         aria-label="Close Menu"
       >
-        <X className="hover:text-[#7dcfff] transition-colors" />
+        <X className="hover:text-gray-100 transition-colors" />
       </button>
 
       {/* Menu Links */}
@@ -41,17 +41,17 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
             onClick={() => setMenuOpen(false)}
             className={`
               text-3xl font-semibold tracking-wide
-              text-[#c0caf5]
+              text-white
               px-6 py-3 rounded-xl
-              bg-[#24283b]/40
-              border border-[#2d3f76]/50
+              bg-[#1a1a1a]/70
+              border border-white/10
               backdrop-blur-sm
               shadow-sm
               transition-all duration-300
-              hover:bg-[#2f3549]/60
-              hover:border-[#3e5a9b]
-              hover:text-[#7dcfff]
-              hover:shadow-[0_0_12px_rgba(122,162,247,0.35)]
+              hover:bg-[#222222]
+              hover:border-white/20
+              hover:text-gray-100
+              hover:shadow-[0_0_12px_rgba(255,255,255,0.08)]
 
               ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}
 
@@ -67,4 +67,3 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
     </div>
   );
 };
-

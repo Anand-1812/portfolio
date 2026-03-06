@@ -23,8 +23,8 @@ function App() {
           transition-all duration-700
           ${isLoaded ? "opacity-100" : "opacity-0"}
           text-gray-100
-          bg-[#0f0f16]
-          bg-gradient-to-b from-[#0f0f16] via-[#1a1b26] to-[#0f0f16]
+          bg-black
+          bg-gradient-to-b from-black via-[#111111] to-black
         `}
       >
         {/* Navbar */}
@@ -46,4 +46,3 @@ function App() {
 }
 
 export default App;
-

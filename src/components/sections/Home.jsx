@@ -13,8 +13,7 @@ export const Home = () => {
           {/* Gradient Title */}
           <h1 className="
             text-5xl md:text-7xl font-bold mb-6
-            bg-gradient-to-r from-[#82aaff] to-[#7dcfff]
-            bg-clip-text text-transparent
+            text-white
             leading-right tracking-tight
           ">
             Hi, I'm Anand Kumar
@@ -22,7 +21,7 @@ export const Home = () => {
 
           {/* Subtitle */}
           <p className="
-            text-[#9aa5ce]
+            text-gray-200
             text-lg md:text-xl
             max-w-3xl mx-auto mb-10
             leading-relaxed
@@ -37,19 +36,21 @@ export const Home = () => {
 
             {/* Primary Button - Download CV */}
             <a
-              href="/resume.pdf"
+              href="/Resume.pdf"
               download
               className="
-                px-7 py-3 rounded-xl font-medium text-[#1a1b26]
-                bg-gradient-to-r from-[#7aa2f7] to-[#89ddff]
-                shadow-[0_0_12px_rgba(122,162,247,0.35)]
+                px-7 py-3 rounded-xl font-semibold !text-black
+                bg-gray-100 border border-gray-100
+                shadow-[0_0_12px_rgba(255,255,255,0.16)]
                 transition-all duration-200
-                hover:shadow-[0_0_20px_rgba(122,162,247,0.55)]
+                hover:bg-white
+                hover:shadow-[0_0_20px_rgba(255,255,255,0.22)]
                 hover:-translate-y-0.5
                 flex items-center gap-2
               "
             >
-              <Download className="w-5 h-5" /> Download CV
+              <Download className="w-5 h-5 !text-black" />
+              <span className="!text-black">Download CV</span>
             </a>
 
             {/* Social Icons */}
@@ -62,14 +63,14 @@ export const Home = () => {
                 rel="noopener noreferrer"
                 className="
                   p-3 rounded-xl
-                  border border-[#3e5a9b]
-                  text-[#82aaff]
-                  bg-[#1a1b26]/40 backdrop-blur-sm
+                  border border-white/10
+                  text-white
+                  bg-[#111111]/60 backdrop-blur-sm
                   transition-all duration-200
-                  hover:bg-[#24283b]/60
-                  hover:border-[#7aa2f7]
-                  hover:text-[#89ddff]
-                  hover:shadow-[0_0_15px_rgba(137,221,255,0.35)]
+                  hover:bg-[#1a1a1a]
+                  hover:border-white/20
+                  hover:text-gray-100
+                  hover:shadow-[0_0_15px_rgba(255,255,255,0.08)]
                   hover:-translate-y-0.5
                 "
                 aria-label="GitHub Profile"
@@ -84,14 +85,14 @@ export const Home = () => {
                 rel="noopener noreferrer"
                 className="
                   p-3 rounded-xl
-                  border border-[#3e5a9b]
-                  text-[#82aaff]
-                  bg-[#1a1b26]/40 backdrop-blur-sm
+                  border border-white/10
+                  text-white
+                  bg-[#111111]/60 backdrop-blur-sm
                   transition-all duration-200
-                  hover:bg-[#24283b]/60
-                  hover:border-[#7aa2f7]
-                  hover:text-[#89ddff]
-                  hover:shadow-[0_0_15px_rgba(137,221,255,0.35)]
+                  hover:bg-[#1a1a1a]
+                  hover:border-white/20
+                  hover:text-gray-100
+                  hover:shadow-[0_0_15px_rgba(255,255,255,0.08)]
                   hover:-translate-y-0.5
                 "
                 aria-label="LinkedIn Profile"
@@ -106,14 +107,14 @@ export const Home = () => {
                 rel="noopener noreferrer"
                 className="
                   p-3 rounded-xl
-                  border border-[#3e5a9b]
-                  text-[#82aaff]
-                  bg-[#1a1b26]/40 backdrop-blur-sm
+                  border border-white/10
+                  text-white
+                  bg-[#111111]/60 backdrop-blur-sm
                   transition-all duration-200
-                  hover:bg-[#24283b]/60
-                  hover:border-[#7aa2f7]
-                  hover:text-[#89ddff]
-                  hover:shadow-[0_0_15px_rgba(137,221,255,0.35)]
+                  hover:bg-[#1a1a1a]
+                  hover:border-white/20
+                  hover:text-gray-100
+                  hover:shadow-[0_0_15px_rgba(255,255,255,0.08)]
                   hover:-translate-y-0.5
                 "
                 aria-label="LeetCode Profile"
