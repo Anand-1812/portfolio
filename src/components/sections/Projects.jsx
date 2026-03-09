@@ -3,16 +3,16 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const Projects = () => {
   const projects = [
     {
-      title: "Shopping Cart",
-      desc: "A clean and responsive shopping cart built using Fake Store API.",
-      tech: ["HTML", "CSS", "React", "JavaScript"],
-      link: "https://shopping-cart-fake.vercel.app",
+      title: "SideInk",
+      desc: "A clean and responsive note taking inspired by google keep.",
+      tech: ["React-Router", "TailwindCSS", "React", "Typescript"],
+      link: "https://sideink-notes.vercel.app",
     },
     {
-      title: "AI Chat App",
-      desc: "An AI-powered chat application built using Google Gemini API.",
-      tech: ["HTML", "CSS", "React", "Google Gemini API"],
-      link: "https://anand-1812.github.io/gemini-clone",
+      title: "Aero Yodha",
+      desc: "An UAV simulation app, simulation 50+ drones in a random place in the map.",
+      tech: ["React", "CSS", "XGboost", "mongodb"],
+      link: "https://aero-yodha.vercel.app",
     },
     {
       title: "Streako",
