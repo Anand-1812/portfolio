@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import BiggerScreenNav from "@/components/Navbar/BiggerScreenNav";
 import MobileNav from "@/components/Navbar/SmallScreenNav";
 import { ThemeProvider } from "next-themes";
-import { ThemeChrome } from "@/components/ui/ThemeChrome";
 
 const BASE_URL = "https://anand-dev.vercel.app";
 
@@ -31,7 +29,6 @@ export const metadata: Metadata = {
   creator: "Anand Kumar",
   publisher: "Anand Kumar",
 
-  // ── Open Graph ────────────────────────────────────────────────
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -50,7 +47,6 @@ export const metadata: Metadata = {
     ],
   },
 
-  // ── Twitter / X Card ──────────────────────────────────────────
   twitter: {
     card: "summary_large_image",
     title: "Anand Kumar | Full Stack Developer",
@@ -60,7 +56,6 @@ export const metadata: Metadata = {
     creator: "@anand_1812",
   },
 
-  // ── Robots ────────────────────────────────────────────────────
   robots: {
     index: true,
     follow: true,
@@ -73,14 +68,12 @@ export const metadata: Metadata = {
     },
   },
 
-  // ── Icons ─────────────────────────────────────────────────────
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
     apple: "/apple-touch-icon.png",
   },
 
-  // ── Canonical ─────────────────────────────────────────────────
   alternates: {
     canonical: BASE_URL,
   },
@@ -100,8 +93,7 @@ export default function RootLayout({
           enableSystem={false}
           disableTransitionOnChange
         >
-          <ThemeChrome />
-          <BiggerScreenNav />
+          {/* ThemeChrome removed from here to move it inside the page content container */}
           <main className="relative z-10">{children}</main>
           <MobileNav />
         </ThemeProvider>
