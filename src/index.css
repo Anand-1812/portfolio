@@ -1,10 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Manrope:wght@400;500;600;700&display=swap");
 @import "tailwindcss";
 
 html, body {
   margin: 0;
   padding: 0;
-  font-family: "ROBOTO", sans-serif;
-  background: #000;
+  font-family: "Manrope", sans-serif;
+  background: #1b1b1f;
   color: #f3f4f6;
 }
 
@@ -59,5 +60,4 @@ html, body {
 .reveal-visible.reveal-zoom {
   transform: scale(1);
 }
-
 

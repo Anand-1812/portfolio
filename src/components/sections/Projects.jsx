@@ -1,109 +1,84 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 
-export const Projects = () => {
-  const projects = [
-    {
-      title: "SideInk",
-      desc: "A clean and responsive note taking inspired by google keep.",
-      tech: ["React-Router", "TailwindCSS", "React", "Typescript"],
-      link: "https://sideink-notes.vercel.app",
-    },
-    {
-      title: "Aero Yodha",
-      desc: "An UAV simulation app, simulation 50+ drones in a random place in the map.",
-      tech: ["React", "CSS", "XGboost", "mongodb"],
-      link: "https://aero-yodha.vercel.app",
-    },
-    {
-      title: "Streako",
-      desc: "A habit tracker inspired by GitHub and LeetCode streak tracking.",
-      tech: [
-        "JavaScript",
-        "TailwindCSS",
-        "React",
-        "Express.js",
-        "MongoDB",
-        "Node.js",
-      ],
-      link: "https://streako-tracker.vercel.app",
-    },
-  ];
+const previewBase = `${import.meta.env.BASE_URL}project-previews`;
 
+const projects = [
+  {
+    title: "Cloud Compress",
+    href: "https://cloudcompress.vercel.app",
+    fallback: `${previewBase}/cloud-compress.svg`,
+  },
+  {
+    title: "SideInk",
+    href: "https://sideink-notes.vercel.app",
+    fallback: `${previewBase}/sideink.svg`,
+  },
+  {
+    title: "Streako",
+    href: "https://streako-tracker.vercel.app",
+    fallback: `${previewBase}/streako.svg`,
+  },
+  {
+    title: "Aero Yodha",
+    href: "https://aero-yodha.vercel.app",
+    fallback: `${previewBase}/aeroyodha.svg`,
+  },
+];
+
+export const Projects = () => {
   return (
     <section
       id="projects"
-      className="min-h-screen flex items-center justify-center py-28 px-6"
+      className="flex items-center justify-center border-t border-white/6 px-6 py-20 sm:px-8"
     >
       <RevealOnScroll>
-        <div className="max-w-5xl mx-auto">
-          {/* Title */}
-          <h2
-            className="
-              text-4xl font-bold mb-14 text-center
-              text-white
-            "
-          >
-            Featured Projects
-          </h2>
+        <div className="mx-auto w-full max-w-5xl">
+          <p className="font-serif text-[1.8rem] text-white/28">Proof of Work</p>
 
-          {/* Project Cards */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {projects.map((p, i) => (
-              <div
-                key={i}
-                className="
-                  p-8 rounded-2xl
-                  bg-[#111111]/60 backdrop-blur-lg
-                  border border-white/10
-                  shadow-[0_0_20px_rgba(0,0,0,0.3)]
-                  transition-all duration-300
-                  hover:-translate-y-1
-                  hover:shadow-[0_0_25px_rgba(255,255,255,0.08)]
-                "
+          <div className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-2">
+            {projects.map((project) => (
+              <a
+                key={project.title}
+                href={project.href}
+                target="_blank"
+                rel="noreferrer"
+                className="group overflow-hidden rounded-[14px] border border-white/10 bg-[#2f2f34] transition duration-300 hover:-translate-y-1 hover:border-white/20"
               >
-                <h3 className="text-2xl font-semibold mb-3 text-white">
-                  {p.title}
-                </h3>
-
-                <p className="text-gray-200 mb-5 leading-relaxed">{p.desc}</p>
-
-                {/* Tech Tags */}
-                <div className="flex flex-wrap gap-2 mb-6">
-                  {p.tech.map((tech) => (
-                    <span
-                      key={tech}
-                      className="
-                        px-3 py-1.5 rounded-full text-sm
-                        bg-white/5 text-white
-                        border border-white/10
-                        transition-all duration-200
-                        hover:bg-white/10
-                        hover:shadow-[0_0_10px_rgba(255,255,255,0.08)]
-                      "
-                    >
-                      {tech}
-                    </span>
-                  ))}
+                <div className="m-1.5 overflow-hidden rounded-[10px] bg-[linear-gradient(135deg,#ff6e3c_0%,#ffd36c_52%,#d9dfc3_100%)] p-1.5">
+                  <ProjectPreviewImage
+                    title={project.title}
+                    href={project.href}
+                    fallback={project.fallback}
+                  />
                 </div>
 
-                {/* View Project Link */}
-                <a
-                  href={p.link}
-                  className="
-                    inline-block mt-2 text-white font-medium
-                    hover:text-gray-100
-                    hover:underline underline-offset-4
-                    transition-all
-                  "
-                  target="_blank"
-                >
-                  View Project →
-                </a>
-              </div>
+                <div className="px-4 pb-5 pt-3">
+                  <h3 className="text-[2rem] font-medium tracking-[-0.025em] text-[#ebe7de]">
+                    {project.title}
+                  </h3>
+                </div>
+              </a>
             ))}
           </div>
         </div>
       </RevealOnScroll>
     </section>
+  );
+};
+
+const ProjectPreviewImage = ({ title, href, fallback }) => {
+  return (
+    <div className="overflow-hidden rounded-[8px] bg-[#111111]">
+      <div className="flex items-center justify-between border-b border-white/8 px-3 py-2 text-[0.66rem] uppercase tracking-[0.16em] text-white/45">
+        <span>Preview</span>
+        <span className="max-w-[10rem] truncate">{href.replace(/^https?:\/\//, "")}</span>
+      </div>
+      <img
+        src={fallback}
+        alt={`${title} deployment preview`}
+        className="aspect-[16/10] w-full object-cover object-top transition duration-300 group-hover:scale-[1.01]"
+        loading="lazy"
+      />
+    </div>
   );
 };

@@ -1,9 +1,6 @@
 import { useState } from "react";
 import { LoadingScreen } from "./components/LoadingScreen";
-import { Navbar } from "./components/Navbar";
-import { MobileMenu } from "./components/MobileMenu";
 import { Home } from "./components/sections/Home";
-import { About } from "./components/sections/About";
 import { Projects } from "./components/sections/Projects";
 import { Contact } from "./components/sections/Contact";
 
@@ -11,7 +8,10 @@ import "./index.css";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
-  const [menuOpen, setMenuOpen] = useState(false);
+  const stripeStyle = {
+    backgroundImage:
+      "repeating-linear-gradient(-45deg, rgba(255,255,255,0.06) 0 1px, transparent 1px 8px)",
+  };
 
   return (
     <>
@@ -23,22 +23,26 @@ function App() {
           transition-all duration-700
           ${isLoaded ? "opacity-100" : "opacity-0"}
           text-gray-100
-          bg-black
-          bg-gradient-to-b from-black via-[#111111] to-black
+          bg-[#1b1b1f]
         `}
       >
-        {/* Navbar */}
-        <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+        <main className="relative mx-auto max-w-[860px] px-4 pb-24 pt-4 sm:px-6 sm:pt-6">
+          <div
+            aria-hidden="true"
+            className="pointer-events-none absolute inset-y-0 -left-[3.2rem] hidden w-[2.8rem] opacity-50 lg:block"
+            style={stripeStyle}
+          />
+          <div
+            aria-hidden="true"
+            className="pointer-events-none absolute inset-y-0 -right-[3.2rem] hidden w-[2.8rem] opacity-50 lg:block"
+            style={stripeStyle}
+          />
 
-        {/* Mobile Menu */}
-        <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-
-        {/* Sections */}
-        <main className="flex flex-col gap-41">
+          <div className="overflow-hidden rounded-[8px] border border-white/8 bg-[#1d1d21] shadow-[0_40px_120px_-60px_rgba(0,0,0,0.85)]">
           <Home />
-          <About />
           <Projects />
           <Contact />
+          </div>
         </main>
       </div>
     </>
