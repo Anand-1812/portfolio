@@ -1,129 +1,93 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Github, ExternalLink, Star, GitFork } from "lucide-react";
+import { ArrowUpRight, Github } from "lucide-react";
 
 export interface Project {
   id: string;
   title: string;
-  description: string;
   tech: string[];
   github: string;
   demo: string | null;
-  featured: boolean;
-  stars: number;
-  forks: number;
-  category: string;
-  highlights: string[];
+  image: string; // Added for the preview screenshot
 }
 
 interface ProjectCardProps {
   project: Project;
-  featured?: boolean;
   index?: number;
 }
 
-export const ProjectCard = ({
-  project,
-  featured = false,
-  index = 0,
-}: ProjectCardProps) => {
+export const ProjectCard = ({ project, index = 0 }: ProjectCardProps) => {
   return (
     <motion.div
-      initial={{ opacity: 0, y: 24 }}
+      initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-60px" }}
-      transition={{ duration: 0.5, delay: index * 0.08 }}
-      className={`group relative flex flex-col bg-neutral-900/40 border border-neutral-900 rounded-2xl p-6
-        hover:border-neutral-700 hover:bg-neutral-900/70 transition-all duration-300
-        ${featured ? "md:col-span-2" : ""}`}
+      viewport={{ once: true }}
+      transition={{ duration: 0.4, delay: index * 0.1 }}
+      className="group flex flex-col overflow-hidden rounded-2xl border border-white/5 bg-white/[0.01] transition-all hover:bg-white/[0.03] hover:border-white/10"
     >
-      {/* Card header */}
-      <div className="flex items-start justify-between gap-4 mb-3">
-        <div className="flex items-center gap-2 min-w-0">
-          {featured && (
-            <span className="shrink-0 text-[10px] font-bold uppercase tracking-widest text-neutral-500 border border-neutral-800 rounded-full px-2 py-0.5">
-              Featured
+      {/* --- BROWSER MOCKUP (Deployment Preview) --- */}
+      <div className="relative aspect-video w-full overflow-hidden border-b border-white/5 bg-neutral-900/50">
+        {/* Window Header */}
+        <div className="flex items-center gap-1.5 border-b border-white/5 bg-white/[0.03] px-4 py-3">
+          <div className="flex gap-1">
+            <div className="h-2 w-2 rounded-full bg-white/10" />
+            <div className="h-2 w-2 rounded-full bg-white/10" />
+            <div className="h-2 w-2 rounded-full bg-white/10" />
+          </div>
+          <div className="ml-2 flex flex-1 items-center rounded-md bg-white/5 px-2 py-1">
+            <span className="truncate text-[9px] font-medium tracking-tight opacity-30">
+              {project.demo?.replace("https://", "") || "localhost:3000"}
             </span>
-          )}
-          <h3 className="text-base font-bold text-white truncate group-hover:text-neutral-100 transition-colors">
-            {project.title}
-          </h3>
+          </div>
         </div>
-
-        <div className="flex items-center gap-3 shrink-0">
-          {(project.stars > 0 || project.forks > 0) && (
-            <div className="hidden sm:flex items-center gap-2.5 text-neutral-600 text-xs">
-              {project.stars > 0 && (
-                <span className="flex items-center gap-1">
-                  <Star size={11} />
-                  {project.stars}
-                </span>
-              )}
-              {project.forks > 0 && (
-                <span className="flex items-center gap-1">
-                  <GitFork size={11} />
-                  {project.forks}
-                </span>
-              )}
-            </div>
-          )}
-
-          <div className="flex gap-1.5">
-            <a
-              href={project.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={`${project.title} GitHub repository`}
-              className="p-1.5 rounded-lg text-neutral-600 hover:text-white hover:bg-neutral-800 transition-all"
-            >
-              <Github size={15} />
-            </a>
-            {project.demo && (
+        
+        {/* Preview Image Area */}
+        <div className="relative h-full w-full overflow-hidden">
+          <img 
+            src={project.image} 
+            alt={`${project.title} preview`}
+            className="h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+          />
+          
+          {/* Hover Action Overlay */}
+          <div className="absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 transition-opacity group-hover:opacity-100 backdrop-blur-[2px]">
+            <div className="flex gap-3">
               <a
-                href={project.demo}
+                href={project.demo || "#"}
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label={`${project.title} live demo`}
-                className="p-1.5 rounded-lg text-neutral-600 hover:text-white hover:bg-neutral-800 transition-all"
+                className="flex items-center gap-2 rounded-full bg-white px-4 py-2 text-[10px] font-bold uppercase tracking-wider text-black transition-transform hover:scale-105"
               >
-                <ExternalLink size={15} />
+                Visit Site <ArrowUpRight size={12} />
               </a>
-            )}
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white backdrop-blur-md transition-transform hover:scale-105"
+              >
+                <Github size={16} />
+              </a>
+            </div>
           </div>
         </div>
       </div>
 
-      {/* Description */}
-      <p className="text-neutral-400 text-sm leading-relaxed mb-4 flex-1">
-        {project.description}
-      </p>
+      {/* --- PROJECT INFO --- */}
+      <div className="flex flex-col p-6">
+        
+        <h3 className="text-xl font-bold tracking-tight text-[var(--foreground)]">
+          {project.title}
+        </h3>
 
-      {/* Highlights — only shown on featured cards */}
-      {featured && project.highlights.length > 0 && (
-        <ul className="mb-5 grid grid-cols-2 gap-x-4 gap-y-1.5">
-          {project.highlights.map((h) => (
-            <li
-              key={h}
-              className="flex items-center gap-2 text-xs text-neutral-500"
-            >
-              <div className="w-1 h-1 rounded-full bg-neutral-700 shrink-0" />
-              {h}
-            </li>
+        <div className="mt-6 flex flex-wrap gap-x-3 gap-y-1">
+          {project.tech.map((t) => (
+            <span key={t} className="text-[10px] font-medium tracking-wide opacity-30 group-hover:opacity-60 transition-opacity">
+              {t}
+            </span>
           ))}
-        </ul>
-      )}
-
-      {/* Tech badges */}
-      <div className="flex flex-wrap gap-1.5 mt-auto pt-1">
-        {project.tech.map((t) => (
-          <span
-            key={t}
-            className="px-2 py-0.5 bg-neutral-950 border border-neutral-800 rounded-md text-[11px] text-neutral-500 font-mono tracking-tight"
-          >
-            {t}
-          </span>
-        ))}
+        </div>
       </div>
     </motion.div>
   );

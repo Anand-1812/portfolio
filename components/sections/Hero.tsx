@@ -57,8 +57,8 @@ export const Hero = () => {
     <section id="home" className="px-0 pt-0">
       {/* --- HEADER / COVER SECTION --- */}
       <div className="w-full">
-        {/* Negative margins (-mx-6 / sm:-mx-12) ensure the header touches the side rails exactly */}
-        <div className="relative -mx-6 h-[200px] overflow-hidden sm:-mx-12 sm:h-[300px]">
+        {/* FIX: Negative margins now exactly match sm:px-16 to eliminate the gap */}
+        <div className="relative -mx-6 h-[200px] overflow-hidden sm:-mx-16 sm:h-[300px]">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.18),transparent_34%),linear-gradient(180deg,rgba(211,205,180,0.95)_0%,rgba(80,86,74,0.42)_44%,rgba(27,27,31,0.85)_100%)] dark:bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.14),transparent_35%),linear-gradient(180deg,rgba(179,172,146,0.9)_0%,rgba(74,78,68,0.45)_42%,rgba(27,27,31,0.92)_100%)]" />
           <div className="absolute inset-x-0 bottom-0 top-[38%] bg-[linear-gradient(180deg,transparent_0%,rgba(13,29,18,0.18)_15%,rgba(11,24,15,0.76)_100%)]" />
           <div className="absolute inset-x-0 bottom-0 h-[42%] bg-[repeating-linear-gradient(90deg,rgba(17,17,17,0)_0px,rgba(17,17,17,0)_10px,rgba(20,20,20,0.05)_11px,rgba(20,20,20,0)_22px)] opacity-50" />
@@ -137,7 +137,6 @@ export const Hero = () => {
                         className="absolute -top-11 z-50 whitespace-nowrap rounded-md bg-[var(--foreground)] px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-[var(--background)] shadow-xl"
                       >
                         {item.hoverText}
-                        {/* Tooltip Arrow */}
                         <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 border-x-[5px] border-t-[5px] border-x-transparent border-t-[var(--foreground)]" />
                       </motion.div>
                     )}
@@ -210,7 +209,7 @@ export const Hero = () => {
           <motion.a
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            href="#about"
+            href="#projects" // Updated anchor link
             className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-6 py-2.5 text-sm font-medium transition-all hover:bg-white/10 hover:border-white/20"
           >
             projects
