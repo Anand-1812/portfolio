@@ -1,8 +1,17 @@
 import type { NextConfig } from "next";
+import { devIndicatorServerState } from "next/dist/server/dev/dev-indicator-server-state";
 
-const nextConfig: NextConfig = {
-  /* config options here */
-  devIndicators: false
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  devIndicators: false,
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'github.com',
+        pathname: '/**',
+      },
+    ],
+  },
 };
-
 export default nextConfig;

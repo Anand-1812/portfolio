@@ -51,51 +51,56 @@ export const Hero = () => {
 
   return (
     <section id="home" className="px-0 pt-0">
+      {/* --- HEADER / COVER SECTION --- */}
       <div className="w-full">
-        <div className="relative h-[180px] overflow-hidden sm:h-[270px]">
+        <div className="relative h-[200px] overflow-hidden sm:h-[300px]">
+          {/* Gradient Overlay */}
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.18),transparent_34%),linear-gradient(180deg,rgba(211,205,180,0.95)_0%,rgba(80,86,74,0.42)_44%,rgba(27,27,31,0.85)_100%)] dark:bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.14),transparent_35%),linear-gradient(180deg,rgba(179,172,146,0.9)_0%,rgba(74,78,68,0.45)_42%,rgba(27,27,31,0.92)_100%)]" />
           <div className="absolute inset-x-0 bottom-0 top-[38%] bg-[linear-gradient(180deg,transparent_0%,rgba(13,29,18,0.18)_15%,rgba(11,24,15,0.76)_100%)]" />
-          <div className="absolute inset-x-0 bottom-0 h-[42%] bg-[repeating-linear-gradient(90deg,rgba(17,17,17,0)_0px,rgba(17,17,17,0)_10px,rgba(20,20,20,0.18)_11px,rgba(20,20,20,0)_22px)] opacity-70" />
+          
+          {/* Subtle Texture/Grid */}
+          <div className="absolute inset-x-0 bottom-0 h-[42%] bg-[repeating-linear-gradient(90deg,rgba(17,17,17,0)_0px,rgba(17,17,17,0)_10px,rgba(20,20,20,0.05)_11px,rgba(20,20,20,0)_22px)] opacity-50" />
+          
           <div className="absolute inset-0 flex items-center justify-center px-6">
-            <p className="theme-serif max-w-xl text-center text-base italic text-white sm:text-xl">
-              You make your own luck if you stay at it long enough.
-            </p>
+            <motion.p 
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.8 }}
+              className="max-w-2xl text-center text-lg leading-relaxed text-white/90 font-medium sm:text-2xl"
+            >
+              "The best way to predict the future is to create it."
+            </motion.p>
           </div>
         </div>
       </div>
 
-      <div className="-mt-10 flex flex-col">
+      {/* --- PROFILE INFO SECTION --- */}
+      <div className="-mt-12 flex flex-col sm:-mt-16">
         <div className="mx-4 mb-4 flex items-center justify-between sm:mx-8">
           <motion.div
             custom={0}
             variants={fadeUp}
             initial="hidden"
             animate="show"
-            className="z-10 flex h-24 w-24 items-center justify-center overflow-hidden rounded-full border border-white/10 bg-[linear-gradient(135deg,#2f3b5e,#0f172a)] text-2xl font-semibold text-white shadow-lg sm:h-28 sm:w-28"
+            className="z-10 flex h-24 w-24 items-center justify-center overflow-hidden rounded-full border-4 border-[var(--background)] bg-[var(--background)] shadow-2xl sm:h-32 sm:w-32"
           >
-            AK
-          </motion.div>
-
-          <motion.div
-            custom={1}
-            variants={fadeUp}
-            initial="hidden"
-            animate="show"
-            className="flex items-center gap-2 text-sm theme-text-muted"
-          >
-            <Github size={16} />
-            93
+            {/* Using standard img to avoid Next.js Config overhead */}
+            <img 
+              src="https://github.com/Anand-1812.png" 
+              alt="Anand Kumar" 
+              className="object-cover w-full h-full"
+            />
           </motion.div>
         </div>
 
-        <div className="flex flex-col gap-5 px-4 sm:flex-row sm:items-end sm:justify-between sm:px-8">
+        <div className="flex flex-col gap-6 px-4 sm:flex-row sm:items-end sm:justify-between sm:px-8">
           <div>
             <motion.h1
               custom={2}
               variants={fadeUp}
               initial="hidden"
               animate="show"
-              className="theme-serif text-[2.6rem] leading-none text-[var(--foreground)] sm:text-[4rem]"
+              className="text-[2.8rem] font-bold tracking-tighter leading-[1.1] text-[var(--foreground)] sm:text-[4.5rem]"
             >
               Anand Kumar
             </motion.h1>
@@ -104,18 +109,19 @@ export const Hero = () => {
               variants={fadeUp}
               initial="hidden"
               animate="show"
-              className="theme-text-soft mt-2 text-sm"
+              className="mt-3 text-xs uppercase tracking-[0.25em] font-semibold opacity-50"
             >
-              22 • engineer • developer • builder
+              22 &bull; Engineer &bull; Developer &bull; Builder
             </motion.p>
           </div>
 
+          {/* Social Links & Theme Toggle */}
           <motion.div
             custom={4}
             variants={fadeUp}
             initial="hidden"
             animate="show"
-            className="flex flex-wrap gap-2"
+            className="flex flex-wrap gap-3"
           >
             {socialLinks.map((item) => {
               const Icon = item.icon;
@@ -126,9 +132,9 @@ export const Hero = () => {
                   target={item.href.startsWith("http") ? "_blank" : undefined}
                   rel={item.href.startsWith("http") ? "noopener noreferrer" : undefined}
                   aria-label={item.label}
-                  className="theme-icon-button flex h-10 w-10 items-center justify-center rounded-full theme-text-muted hover:text-[var(--foreground)]"
+                  className="flex h-11 w-11 items-center justify-center rounded-full border border-white/10 bg-white/5 transition-all hover:bg-white/10 hover:scale-110 active:scale-95"
                 >
-                  <Icon size={16} />
+                  <Icon size={18} className="opacity-70 hover:opacity-100" />
                 </a>
               );
             })}
@@ -137,50 +143,51 @@ export const Hero = () => {
                 type="button"
                 onClick={() => setTheme(isDark ? "light" : "dark")}
                 aria-label={isDark ? "Switch to light theme" : "Switch to dark theme"}
-                className="theme-icon-button flex h-10 w-10 items-center justify-center rounded-full theme-text-muted hover:text-[var(--foreground)]"
+                className="flex h-11 w-11 items-center justify-center rounded-full border border-white/10 bg-white/5 transition-all hover:bg-white/10 hover:scale-110 active:scale-95"
               >
-                {isDark ? <Sun size={16} /> : <Moon size={16} />}
+                {isDark ? <Sun size={18} className="opacity-70" /> : <Moon size={18} className="opacity-70" />}
               </button>
             )}
           </motion.div>
         </div>
       </div>
 
-      <div className="theme-divider mt-8" />
+      <div className="mt-10 h-[1px] w-full bg-gradient-to-r from-transparent via-[var(--foreground)] to-transparent opacity-10" />
 
+      {/* --- BIO SECTION --- */}
       <motion.div
         custom={5}
         variants={fadeUp}
         initial="hidden"
         animate="show"
-        className="px-4 py-8 sm:px-8"
+        className="px-4 py-10 sm:px-8"
       >
-        <p className="max-w-4xl text-lg leading-[1.75] theme-text-muted">
-          <span className="text-[var(--foreground)]">I build from zero.</span>{" "}
+        <p className="max-w-3xl text-lg leading-[1.8] opacity-80 sm:text-xl">
+          <span className="font-semibold text-[var(--foreground)] opacity-100">I build from zero.</span>{" "}
           Full-stack developer focused on clean product work, practical
           engineering, and shipping things people actually use. From frontend to
           backend to deployment, I care more about the result than the stack
           debate.
         </p>
 
-        <div className="mt-6 flex flex-wrap gap-3">
+        <div className="mt-8 flex flex-wrap gap-4">
           <a
             href="#about"
-            className="inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm theme-line theme-text-muted hover:text-[var(--foreground)]"
+            className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-6 py-2.5 text-sm font-medium transition-all hover:bg-white/10 hover:border-white/20"
           >
-            About
+            projects
           </a>
           <a
-            href="#github"
-            className="inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm theme-line theme-text-muted hover:text-[var(--foreground)]"
+            href="#contact"
+            className="inline-flex items-center gap-2 rounded-full bg-[var(--foreground)] px-6 py-2.5 text-sm font-medium text-[var(--background)] transition-all hover:opacity-90"
           >
-            GitHub
+            contact
             <ArrowDown size={14} />
           </a>
         </div>
       </motion.div>
 
-      <div className="theme-divider" />
+      <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-[var(--foreground)] to-transparent opacity-10" />
     </section>
   );
 };
