@@ -1,1 +1,0 @@
-self.__REACT_LOADABLE_MANIFEST='{"node_modules/react-activity-calendar/build/chunks/index-CqFS6gMj.js -> ./Tooltip-BAxPWbMb.js":{"id":8775,"files":["static/chunks/c16f53c3.13441aa1a6237668.js","static/chunks/270.c20a5f5db02c2ce7.js"]}}';
