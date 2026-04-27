@@ -7,7 +7,7 @@ const projects: Project[] = [
   {
     id: "1",
     title: "CloudCompress",
-    tech: ["Next.js", "WebAssembly", "TypeScript", "Tailwind"],
+    tech: ["Next.js", "Cloudinary", "prisma", "PostgreSQL"],
     github: "https://github.com/Anand-1812",
     demo: "https://cloud-compress.vercel.app",
     image: "/projects/cloudcompress.png", 
@@ -15,7 +15,7 @@ const projects: Project[] = [
   {
     id: "2",
     title: "Streako",
-    tech: ["React", "Firebase", "Framer Motion", "Chart.js"],
+    tech: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
     github: "https://github.com/Anand-1812",
     demo: "https://streako-tracker.vercel.app",
     image: "/projects/streako.png",
@@ -23,7 +23,7 @@ const projects: Project[] = [
   {
     id: "3",
     title: "Sideink",
-    tech: ["Next.js", "Prisma", "PostgreSQL", "Lucide"],
+    tech: ["Next.js", "MongoDB", "Tailwind CSS"],
     github: "https://github.com/Anand-1812",
     demo: "https://sideink-notes.vercel.app",
     image: "/projects/sideink.png",
@@ -31,7 +31,7 @@ const projects: Project[] = [
   {
     id: "4",
     title: "Aero Yodha",
-    tech: ["React Native", "Express.js", "MongoDB", "Node.js"],
+    tech: ["React", "Leafletjs", "Express.js", "MongoDB"],
     github: "https://github.com/Anand-1812",
     demo: "https://aero-yodha.vercel.app",
     image: "/projects/aeroyodha.png",
@@ -45,13 +45,10 @@ export const Projects = () => {
         <h2 className="theme-serif text-xl opacity-30">
           Selected Projects
         </h2>
-        <p className="mt-2 text-sm italic opacity-50">
-          Production deployments and functional prototypes.
-        </p>
       </div>
       
-      {/* 2 columns on medium screens and up */}
-      <div className="grid gap-6 md:grid-cols-2">
+      {/* 2-Column Grid */}
+      <div className="grid gap-8 md:grid-cols-2">
         {projects.map((project, index) => (
           <ProjectCard 
             key={project.id} 

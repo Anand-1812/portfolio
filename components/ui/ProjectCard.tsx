@@ -9,7 +9,7 @@ export interface Project {
   tech: string[];
   github: string;
   demo: string | null;
-  image: string; // Added for the preview screenshot
+  image: string;
 }
 
 interface ProjectCardProps {
@@ -24,69 +24,65 @@ export const ProjectCard = ({ project, index = 0 }: ProjectCardProps) => {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.4, delay: index * 0.1 }}
-      className="group flex flex-col overflow-hidden rounded-2xl border border-white/5 bg-white/[0.01] transition-all hover:bg-white/[0.03] hover:border-white/10"
+      className="group flex flex-col overflow-hidden rounded-3xl border border-white/5 bg-white/[0.02] transition-all hover:border-white/10"
     >
-      {/* --- BROWSER MOCKUP (Deployment Preview) --- */}
-      <div className="relative aspect-video w-full overflow-hidden border-b border-white/5 bg-neutral-900/50">
-        {/* Window Header */}
-        <div className="flex items-center gap-1.5 border-b border-white/5 bg-white/[0.03] px-4 py-3">
-          <div className="flex gap-1">
-            <div className="h-2 w-2 rounded-full bg-white/10" />
-            <div className="h-2 w-2 rounded-full bg-white/10" />
-            <div className="h-2 w-2 rounded-full bg-white/10" />
-          </div>
-          <div className="ml-2 flex flex-1 items-center rounded-md bg-white/5 px-2 py-1">
-            <span className="truncate text-[9px] font-medium tracking-tight opacity-30">
-              {project.demo?.replace("https://", "") || "localhost:3000"}
-            </span>
-          </div>
-        </div>
-        
-        {/* Preview Image Area */}
-        <div className="relative h-full w-full overflow-hidden">
-          <img 
-            src={project.image} 
-            alt={`${project.title} preview`}
-            className="h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
-          />
-          
-          {/* Hover Action Overlay */}
-          <div className="absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 transition-opacity group-hover:opacity-100 backdrop-blur-[2px]">
-            <div className="flex gap-3">
-              <a
-                href={project.demo || "#"}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 rounded-full bg-white px-4 py-2 text-[10px] font-bold uppercase tracking-wider text-black transition-transform hover:scale-105"
-              >
-                Visit Site <ArrowUpRight size={12} />
-              </a>
-              <a
-                href={project.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white backdrop-blur-md transition-transform hover:scale-105"
-              >
-                <Github size={16} />
-              </a>
-            </div>
-          </div>
-        </div>
+      {/* --- IMAGE AREA --- */}
+      <div className="relative aspect-[16/10] w-full overflow-hidden border-b border-white/5">
+        <img 
+          src={project.image} 
+          alt={project.title}
+          className="h-full w-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
+        />
+        {/* Subtle overlay on hover for desktop */}
+        <div className="absolute inset-0 bg-black/20 opacity-0 transition-opacity group-hover:opacity-100 hidden md:block" />
       </div>
 
-      {/* --- PROJECT INFO --- */}
-      <div className="flex flex-col p-6">
-        
-        <h3 className="text-xl font-bold tracking-tight text-[var(--foreground)]">
-          {project.title}
-        </h3>
+      {/* --- CONTENT AREA (Always Visible) --- */}
+      <div className="flex flex-col p-6 sm:p-8">
+        <div className="flex items-start justify-between gap-4">
+          <div className="flex-1">
+            <h3 className="text-xl font-bold tracking-tight text-[var(--foreground)] sm:text-2xl">
+              {project.title}
+            </h3>
+            
+            {/* Tech Stack - Always Showing */}
+            <div className="mt-3 flex flex-wrap gap-x-3 gap-y-1">
+              {project.tech.map((t, i) => (
+                <div key={t} className="flex items-center gap-3">
+                  <span className="text-[10px] font-bold uppercase tracking-widest opacity-30">
+                    {t}
+                  </span>
+                  {i !== project.tech.length - 1 && (
+                    <div className="h-1 w-1 rounded-full bg-white/10" />
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
 
-        <div className="mt-6 flex flex-wrap gap-x-3 gap-y-1">
-          {project.tech.map((t) => (
-            <span key={t} className="text-[10px] font-medium tracking-wide opacity-30 group-hover:opacity-60 transition-opacity">
-              {t}
-            </span>
-          ))}
+          {/* Action Buttons - Always Visible for Intuitive UX */}
+          <div className="flex gap-2 shrink-0">
+            <a
+              href={project.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub Repository"
+              className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 transition-all hover:bg-white/10 hover:scale-110 active:scale-95"
+            >
+              <Github size={18} className="opacity-70" />
+            </a>
+            {project.demo && (
+              <a
+                href={project.demo}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Live Demo"
+                className="flex h-10 w-10 items-center justify-center rounded-full bg-[var(--foreground)] text-[var(--background)] transition-all hover:scale-110 active:scale-95"
+              >
+                <ArrowUpRight size={20} />
+              </a>
+            )}
+          </div>
         </div>
       </div>
     </motion.div>

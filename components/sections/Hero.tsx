@@ -101,7 +101,7 @@ export const Hero = () => {
               variants={fadeUp}
               initial="hidden"
               animate="show"
-              className="text-[2.8rem] font-bold tracking-tighter leading-[1.1] text-[var(--foreground)] sm:text-[4.5rem]"
+              className="text-[2.8rem] font-semibold tracking-tighter leading-[0.8] text-[var(--foreground)] sm:text-[4.5rem]"
             >
               Anand Kumar
             </motion.h1>
@@ -112,7 +112,7 @@ export const Hero = () => {
               animate="show"
               className="mt-3 text-xs uppercase tracking-[0.25em] font-semibold opacity-50"
             >
-              22 &bull; Developer &bull; Builder
+              20 &bull; Developer &bull; Builder
             </motion.p>
           </div>
 
