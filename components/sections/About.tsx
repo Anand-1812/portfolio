@@ -85,17 +85,15 @@ const itemVariants = {
 
 export const About = () => {
   return (
-    <SectionWrapper id="about">
-      {/* Heading */}
-      <h2 className="text-3xl font-bold text-white mb-10 tracking-tight">
+    <SectionWrapper id="about" className="pt-8">
+      <h2 className="theme-serif mb-6 text-xl opacity-30">
         About
       </h2>
 
-      {/* Skills grouped by category */}
       <div className="space-y-6">
         {skillGroups.map((group) => (
           <div key={group.label}>
-            <p className="text-[10px] uppercase tracking-widest text-neutral-600 font-bold mb-3">
+            <p className="mb-3 text-[10px] font-bold uppercase tracking-widest theme-text-soft">
               {group.label}
             </p>
             <motion.div
@@ -110,8 +108,7 @@ export const About = () => {
                   key={skill.name}
                   variants={itemVariants}
                   style={{ borderColor: `${skill.color}18` }}
-                  className="flex items-center gap-2 px-3 py-1.5 bg-neutral-900/50 border rounded-xl
-                    text-sm font-medium hover:bg-neutral-900 transition-all group cursor-default"
+                  className="flex cursor-default items-center gap-2 rounded-full border bg-white/[0.02] px-3 py-1.5 text-sm font-medium group theme-line"
                 >
                   <span
                     style={{ color: skill.color }}
@@ -119,7 +116,7 @@ export const About = () => {
                   >
                     {skill.icon}
                   </span>
-                  <span className="text-neutral-300">{skill.name}</span>
+                  <span className="text-[var(--foreground)]">{skill.name}</span>
                 </motion.div>
               ))}
             </motion.div>

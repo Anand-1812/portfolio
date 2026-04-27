@@ -5,9 +5,8 @@ import { Contact } from "@/components/sections/Contact";
 
 export default function Home() {
   return (
-    <div className="min-h-screen text-neutral-300">
-      {/* Architectural container — max-width + vertical border rails */}
-      <div className="max-w-4xl mx-auto border-x border-neutral-900 min-h-screen flex flex-col pt-20 pb-6">
+    <div className="min-h-screen text-[var(--foreground)]">
+      <div className="mx-auto flex min-h-screen max-w-4xl flex-col border-x theme-rail pt-0 pb-10 sm:w-[calc(100%-120px)]">
         <Hero />
         <About />
         <GithubActivity />

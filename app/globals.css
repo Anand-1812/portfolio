@@ -1,24 +1,122 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0a0a0a;
-  --foreground: #ededed;
+  --font-sans: "Inter", "Segoe UI", Arial, sans-serif;
+  --font-serif: Georgia, "Times New Roman", serif;
+  --background: #1b1b1f;
+  --foreground: rgba(255, 255, 255, 0.95);
+  --muted: rgba(255, 255, 255, 0.7);
+  --soft: rgba(255, 255, 255, 0.42);
+  --line: rgba(255, 255, 255, 0.06);
+  --panel: #1d1d21;
+  --panel-2: #212126;
+  --button: #242428;
+  --button-line: rgba(255, 255, 255, 0.08);
+  --rail-line: rgba(255, 255, 255, 0.055);
+  --rail-pattern: rgba(255, 255, 255, 0.04);
 }
 
-body {
-  background-color: var(--background);
-  color: var(--foreground);
-  -webkit-font-smoothing: antialiased;
+.light {
+  --background: #f7f7f5;
+  --foreground: rgba(0, 0, 0, 0.92);
+  --muted: rgba(0, 0, 0, 0.72);
+  --soft: rgba(0, 0, 0, 0.42);
+  --line: rgba(0, 0, 0, 0.06);
+  --panel: #fcfcfa;
+  --panel-2: #f2f2ef;
+  --button: #f6f6f2;
+  --button-line: rgba(0, 0, 0, 0.08);
+  --rail-line: rgba(0, 0, 0, 0.06);
+  --rail-pattern: rgba(0, 0, 0, 0.04);
 }
 
 html {
   scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
-::-webkit-scrollbar {
-  width: 0px;
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  min-height: 100vh;
+  font-family: var(--font-sans);
+  background: var(--background);
+  color: var(--foreground);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 * {
+  border-color: var(--line);
   @apply selection:bg-white selection:text-black;
+}
+
+.light * {
+  @apply selection:bg-black selection:text-white;
+}
+
+.theme-shell {
+  background: var(--background);
+}
+
+.theme-panel {
+  background: var(--panel);
+}
+
+.theme-panel-soft {
+  background: var(--panel-2);
+}
+
+.theme-line {
+  border-color: var(--line);
+}
+
+.theme-text-muted {
+  color: var(--muted);
+}
+
+.theme-text-soft {
+  color: var(--soft);
+}
+
+.theme-serif {
+  font-family: var(--font-serif);
+}
+
+.theme-rail {
+  border-color: var(--rail-line);
+}
+
+.theme-rail-pattern {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 2px,
+    var(--rail-pattern) 2px,
+    var(--rail-pattern) 3px,
+    transparent 3px,
+    transparent 6px
+  );
+}
+
+.theme-divider {
+  border-bottom: 1px dashed var(--line);
+}
+
+.theme-icon-button {
+  background: var(--button);
+  border: 1px solid var(--button-line);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.04),
+    0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.light .theme-icon-button {
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.6),
+    0 4px 10px rgba(15, 23, 42, 0.08);
 }

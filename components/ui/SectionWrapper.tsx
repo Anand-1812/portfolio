@@ -22,8 +22,8 @@ export const SectionWrapper = ({
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-80px" }}
       transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
-      className={`px-6 md:px-10 py-16 ${
-        !noBorder ? "border-b border-neutral-900" : ""
+      className={`px-4 py-6 sm:px-8 ${
+        !noBorder ? "theme-divider" : ""
       } ${className}`}
     >
       {children}

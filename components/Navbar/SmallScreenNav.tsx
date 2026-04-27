@@ -1,26 +1,33 @@
 "use client";
 
-import { House, Folder, Mail, User, MapPin } from "lucide-react";
+import { House, Folder, Mail, User, Moon, Sun } from "lucide-react";
+import { useTheme } from "next-themes";
+import { useEffect, useState } from "react";
 
 const navItems = [
   { label: "Home", href: "#home", icon: House },
-  { label: "Projects", href: "#projects", icon: Folder },
   { label: "About", href: "#about", icon: User },
-  { label: "Journey", href: "#experience", icon: MapPin },
+  { label: "GitHub", href: "#github", icon: Folder },
   { label: "Contact", href: "#contact", icon: Mail },
 ];
 
 const MobileNav = () => {
+  const { resolvedTheme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  const isDark = resolvedTheme === "dark";
+
   return (
     <div
       className="
-        fixed bottom-0 left-0 w-full h-16
+        fixed bottom-3 left-1/2 h-16 w-[calc(100%-1.5rem)] max-w-sm -translate-x-1/2 rounded-full
         z-50 sm:hidden
         flex items-center justify-around
-        bg-neutral-900/90
-        backdrop-blur-xl
-        border-t border-white/10
-        px-1
+        px-2 border theme-line bg-black/80 backdrop-blur-md
       "
     >
       {navItems.map((item) => {
@@ -33,8 +40,8 @@ const MobileNav = () => {
             className="
               flex flex-col items-center justify-center
               gap-0.5 px-2 py-2
-              text-neutral-400
-              hover:text-white
+              theme-text-soft
+              hover:text-[var(--foreground)]
               transition-colors
               min-w-0
             "
@@ -46,6 +53,19 @@ const MobileNav = () => {
           </a>
         );
       })}
+      {mounted && (
+        <button
+          type="button"
+          onClick={() => setTheme(isDark ? "light" : "dark")}
+          aria-label={isDark ? "Switch to light theme" : "Switch to dark theme"}
+          className="flex min-w-0 flex-col items-center justify-center gap-0.5 px-2 py-2 theme-text-soft hover:text-[var(--foreground)] transition-colors"
+        >
+          {isDark ? <Sun size={18} /> : <Moon size={18} />}
+          <span className="w-full truncate text-center text-[9px] tracking-wide">
+            Theme
+          </span>
+        </button>
+      )}
     </div>
   );
 };

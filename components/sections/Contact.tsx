@@ -94,18 +94,17 @@ export const Contact = () => {
   };
 
   const inputBase =
-    "w-full bg-neutral-900/50 border border-neutral-800 rounded-xl px-4 py-3 text-sm text-neutral-200 placeholder:text-neutral-600 outline-none transition-all duration-200 focus:border-neutral-600 focus:bg-neutral-900";
+    "w-full rounded-2xl border px-4 py-3 text-sm text-[var(--foreground)] outline-none placeholder:text-[var(--soft)] theme-line theme-panel-soft";
 
   return (
     <SectionWrapper id="contact" noBorder>
-      {/* Heading */}
       <div className="mb-12 text-center">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="text-5xl md:text-6xl font-black text-white tracking-tighter mb-3 uppercase"
+          className="theme-serif mb-3 text-5xl tracking-tight text-[var(--foreground)] md:text-6xl"
         >
           Get in Touch
         </motion.h2>
@@ -114,14 +113,13 @@ export const Contact = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.1 }}
-          className="text-neutral-500 text-base font-mono italic"
+          className="theme-text-muted text-base italic"
         >
           I&apos;m open to internship opportunities — shoot me a message.
         </motion.p>
       </div>
 
       <div className="grid md:grid-cols-[1fr_1.4fr] gap-8 max-w-3xl mx-auto">
-        {/* ── Left: Social Links ─────────────────────────────── */}
         <motion.div
           initial={{ opacity: 0, x: -20 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -129,7 +127,7 @@ export const Contact = () => {
           transition={{ duration: 0.5, delay: 0.15 }}
           className="flex flex-col gap-3"
         >
-          <p className="text-[10px] uppercase tracking-widest text-neutral-600 font-bold mb-1">
+          <p className="mb-1 text-[10px] font-bold uppercase tracking-widest theme-text-soft">
             Find me on
           </p>
           {socials.map((s) => (
@@ -139,36 +137,33 @@ export const Contact = () => {
               target={s.label !== "Email" ? "_blank" : undefined}
               rel={s.label !== "Email" ? "noopener noreferrer" : undefined}
               aria-label={s.label}
-              className={`flex items-center gap-4 px-4 py-3 bg-neutral-900/40 border border-neutral-900
-                rounded-2xl text-neutral-400 transition-all duration-200 group
+              className={`theme-panel flex items-center gap-4 rounded-2xl border px-4 py-3 theme-line theme-text-muted transition-all duration-200 group
                 ${s.hoverColor} ${s.hoverBorder}`}
             >
               <span className="transition-transform duration-200 group-hover:scale-110">
                 {s.icon}
               </span>
               <div className="flex flex-col min-w-0">
-                <span className="text-xs font-bold uppercase tracking-wider text-neutral-500 group-hover:text-current transition-colors">
+                <span className="text-xs font-bold uppercase tracking-wider theme-text-soft group-hover:text-current transition-colors">
                   {s.label}
                 </span>
-                <span className="text-sm font-mono truncate">{s.handle}</span>
+                <span className="truncate text-sm">{s.handle}</span>
               </div>
             </a>
           ))}
         </motion.div>
 
-        {/* ── Right: Contact Form ────────────────────────────── */}
         <motion.div
           initial={{ opacity: 0, x: 20 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          <p className="text-[10px] uppercase tracking-widest text-neutral-600 font-bold mb-4">
+          <p className="mb-4 text-[10px] font-bold uppercase tracking-widest theme-text-soft">
             Send a message
           </p>
 
           <form onSubmit={handleSubmit} noValidate className="flex flex-col gap-3">
-            {/* Name */}
             <div>
               <label htmlFor="contact-name" className="sr-only">
                 Name
@@ -186,7 +181,6 @@ export const Contact = () => {
               />
             </div>
 
-            {/* Email */}
             <div>
               <label htmlFor="contact-email" className="sr-only">
                 Email
@@ -204,7 +198,6 @@ export const Contact = () => {
               />
             </div>
 
-            {/* Message */}
             <div>
               <label htmlFor="contact-message" className="sr-only">
                 Message
@@ -221,12 +214,11 @@ export const Contact = () => {
               />
             </div>
 
-            {/* Status feedback */}
             {status === "error" && (
               <motion.p
                 initial={{ opacity: 0, y: -4 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="flex items-center gap-2 text-xs text-red-400 font-mono"
+                className="flex items-center gap-2 text-xs text-red-400"
               >
                 <AlertCircle size={13} />
                 Please fill in all fields before sending.
@@ -237,27 +229,24 @@ export const Contact = () => {
               <motion.p
                 initial={{ opacity: 0, y: -4 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="flex items-center gap-2 text-xs text-green-400 font-mono"
+                className="flex items-center gap-2 text-xs text-green-500"
               >
                 <CheckCircle2 size={13} />
                 Mail client opened — message ready to send!
               </motion.p>
             )}
 
-            {/* Submit button */}
             <button
               type="submit"
               disabled={status === "sending" || status === "success"}
-              className="mt-1 inline-flex items-center justify-center gap-2 px-5 py-3 bg-white text-black
-                text-sm font-semibold rounded-xl hover:bg-neutral-200 transition-colors
-                disabled:opacity-40 disabled:cursor-not-allowed"
+              className="mt-1 inline-flex items-center justify-center gap-2 rounded-full border px-5 py-3 text-sm font-semibold text-[var(--foreground)] theme-line theme-icon-button disabled:cursor-not-allowed disabled:opacity-40"
             >
               {status === "sending" ? (
                 <>
                   <motion.span
                     animate={{ rotate: 360 }}
                     transition={{ repeat: Infinity, duration: 0.8, ease: "linear" }}
-                    className="inline-block w-4 h-4 border-2 border-black/30 border-t-black rounded-full"
+                    className="inline-block h-4 w-4 rounded-full border-2 border-current/30 border-t-current"
                   />
                   Sending…
                 </>

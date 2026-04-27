@@ -1,19 +1,9 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import BiggerScreenNav from "@/components/Navbar/BiggerScreenNav";
 import MobileNav from "@/components/Navbar/SmallScreenNav";
 import { ThemeProvider } from "next-themes";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import { ThemeChrome } from "@/components/ui/ThemeChrome";
 
 const BASE_URL = "https://anand-dev.vercel.app";
 
@@ -103,12 +93,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning className="scroll-smooth">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-neutral-950 text-white`}
-      >
-        <ThemeProvider attribute="class" defaultTheme="dark">
+      <body className="theme-shell antialiased">
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem={false}
+          disableTransitionOnChange
+        >
+          <ThemeChrome />
           <BiggerScreenNav />
-          <main>{children}</main>
+          <main className="relative z-10">{children}</main>
           <MobileNav />
         </ThemeProvider>
       </body>

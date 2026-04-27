@@ -8,288 +8,273 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$github$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Github$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/github.js [app-client] (ecmascript) <export default as Github>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$file$2d$text$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__FileText$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/file-text.js [app-client] (ecmascript) <export default as FileText>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$github$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Github$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/github.js [app-client] (ecmascript) <export default as Github>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$linkedin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Linkedin$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/linkedin.js [app-client] (ecmascript) <export default as Linkedin>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$moon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Moon$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/moon.js [app-client] (ecmascript) <export default as Moon>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$sun$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Sun$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/sun.js [app-client] (ecmascript) <export default as Sun>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$down$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowDown$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/arrow-down.js [app-client] (ecmascript) <export default as ArrowDown>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$code$2d$xml$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Code2$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/code-xml.js [app-client] (ecmascript) <export default as Code2>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$layers$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Layers$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/layers.js [app-client] (ecmascript) <export default as Layers>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$terminal$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Terminal$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/terminal.js [app-client] (ecmascript) <export default as Terminal>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$themes$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next-themes/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
 "use client";
 ;
 ;
 ;
-const stats = [
-    {
-        label: "DSA Problems",
-        value: "400+",
-        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$code$2d$xml$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Code2$3e$__["Code2"], {
-            size: 14
-        }, void 0, false, {
-            fileName: "[project]/components/sections/Hero.tsx",
-            lineNumber: 14,
-            columnNumber: 49
-        }, ("TURBOPACK compile-time value", void 0))
-    },
-    {
-        label: "Projects Built",
-        value: "10+",
-        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$layers$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Layers$3e$__["Layers"], {
-            size: 14
-        }, void 0, false, {
-            fileName: "[project]/components/sections/Hero.tsx",
-            lineNumber: 15,
-            columnNumber: 50
-        }, ("TURBOPACK compile-time value", void 0))
-    },
-    {
-        label: "CS Student",
-        value: "3rd Year",
-        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$terminal$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Terminal$3e$__["Terminal"], {
-            size: 14
-        }, void 0, false, {
-            fileName: "[project]/components/sections/Hero.tsx",
-            lineNumber: 16,
-            columnNumber: 51
-        }, ("TURBOPACK compile-time value", void 0))
-    }
-];
+;
 const fadeUp = {
     hidden: {
         opacity: 0,
-        y: 24
+        y: 20
     },
     show: (i)=>({
             opacity: 1,
             y: 0,
             transition: {
-                duration: 0.55,
-                delay: i * 0.1,
+                duration: 0.45,
+                delay: i * 0.08,
                 ease: "easeOut"
             }
         })
 };
+const socialLinks = [
+    {
+        label: "GitHub",
+        href: "https://github.com/Anand-1812",
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$github$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Github$3e$__["Github"]
+    },
+    {
+        label: "Resume",
+        href: "/New_Resume.pdf",
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$file$2d$text$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__FileText$3e$__["FileText"]
+    },
+    {
+        label: "LinkedIn",
+        href: "https://www.linkedin.com/in/anand-kumar-d2005",
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$linkedin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Linkedin$3e$__["Linkedin"]
+    }
+];
 const Hero = ()=>{
+    _s();
+    const { resolvedTheme, setTheme } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$themes$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTheme"])();
+    const [mounted, setMounted] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "Hero.useEffect": ()=>{
+            setMounted(true);
+        }
+    }["Hero.useEffect"], []);
+    const isDark = resolvedTheme !== "light";
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "home",
-        className: "px-6 md:px-10 py-20 md:py-28 border-b border-neutral-900 relative overflow-hidden",
+        className: "px-0 pt-0",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                "aria-hidden": true,
-                className: "pointer-events-none absolute -top-32 -left-32 w-96 h-96 rounded-full bg-white/1.5 blur-3xl"
-            }, void 0, false, {
-                fileName: "[project]/components/sections/Hero.tsx",
-                lineNumber: 35,
-                columnNumber: 7
-            }, ("TURBOPACK compile-time value", void 0)),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                "aria-hidden": true,
-                className: "pointer-events-none absolute -bottom-20 -right-20 w-80 h-80 rounded-full bg-white/1.2 blur-3xl"
-            }, void 0, false, {
-                fileName: "[project]/components/sections/Hero.tsx",
-                lineNumber: 39,
-                columnNumber: 7
-            }, ("TURBOPACK compile-time value", void 0)),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                custom: 0,
-                variants: fadeUp,
-                initial: "hidden",
-                animate: "show",
-                className: "flex items-center gap-2 mb-8",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                    className: "inline-flex items-center gap-2 text-[11px] font-bold uppercase tracking-[0.18em] text-neutral-600 border border-neutral-800 rounded-full px-3 py-1",
+                className: "w-full",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "relative h-[180px] overflow-hidden sm:h-[270px]",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: "w-1.5 h-1.5 rounded-full bg-neutral-500 animate-pulse"
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.18),transparent_34%),linear-gradient(180deg,rgba(211,205,180,0.95)_0%,rgba(80,86,74,0.42)_44%,rgba(27,27,31,0.85)_100%)] dark:bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.14),transparent_35%),linear-gradient(180deg,rgba(179,172,146,0.9)_0%,rgba(74,78,68,0.45)_42%,rgba(27,27,31,0.92)_100%)]"
                         }, void 0, false, {
                             fileName: "[project]/components/sections/Hero.tsx",
-                            lineNumber: 53,
+                            lineNumber: 56,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
-                        "Open to Internships"
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "absolute inset-x-0 bottom-0 top-[38%] bg-[linear-gradient(180deg,transparent_0%,rgba(13,29,18,0.18)_15%,rgba(11,24,15,0.76)_100%)]"
+                        }, void 0, false, {
+                            fileName: "[project]/components/sections/Hero.tsx",
+                            lineNumber: 57,
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "absolute inset-x-0 bottom-0 h-[42%] bg-[repeating-linear-gradient(90deg,rgba(17,17,17,0)_0px,rgba(17,17,17,0)_10px,rgba(20,20,20,0.18)_11px,rgba(20,20,20,0)_22px)] opacity-70"
+                        }, void 0, false, {
+                            fileName: "[project]/components/sections/Hero.tsx",
+                            lineNumber: 58,
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "absolute inset-0 flex items-center justify-center px-6",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "theme-serif max-w-xl text-center text-base italic text-white sm:text-xl",
+                                children: "You make your own luck if you stay at it long enough."
+                            }, void 0, false, {
+                                fileName: "[project]/components/sections/Hero.tsx",
+                                lineNumber: 60,
+                                columnNumber: 13
+                            }, ("TURBOPACK compile-time value", void 0))
+                        }, void 0, false, {
+                            fileName: "[project]/components/sections/Hero.tsx",
+                            lineNumber: 59,
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/sections/Hero.tsx",
-                    lineNumber: 52,
+                    lineNumber: 55,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/components/sections/Hero.tsx",
-                lineNumber: 45,
+                lineNumber: 54,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mb-6",
+                className: "-mt-10 flex flex-col",
                 children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].h1, {
-                        custom: 1,
-                        variants: fadeUp,
-                        initial: "hidden",
-                        animate: "show",
-                        className: "text-5xl sm:text-6xl md:text-7xl font-black text-white tracking-tighter leading-[0.95] mb-3",
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "mx-4 mb-4 flex items-center justify-between sm:mx-8",
                         children: [
-                            "Anand",
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                                custom: 0,
+                                variants: fadeUp,
+                                initial: "hidden",
+                                animate: "show",
+                                className: "z-10 flex h-24 w-24 items-center justify-center overflow-hidden rounded-full border border-white/10 bg-[linear-gradient(135deg,#2f3b5e,#0f172a)] text-2xl font-semibold text-white shadow-lg sm:h-28 sm:w-28",
+                                children: "AK"
+                            }, void 0, false, {
                                 fileName: "[project]/components/sections/Hero.tsx",
-                                lineNumber: 68,
+                                lineNumber: 69,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
-                            "Kumar"
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/sections/Hero.tsx",
-                        lineNumber: 60,
-                        columnNumber: 9
-                    }, ("TURBOPACK compile-time value", void 0)),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                        custom: 2,
-                        variants: fadeUp,
-                        initial: "hidden",
-                        animate: "show",
-                        className: "flex flex-wrap items-center gap-x-3 gap-y-1 mt-4",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "text-neutral-400 font-mono text-sm md:text-base",
-                                children: "Full Stack Developer"
-                            }, void 0, false, {
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                                custom: 1,
+                                variants: fadeUp,
+                                initial: "hidden",
+                                animate: "show",
+                                className: "flex items-center gap-2 text-sm theme-text-muted",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$github$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Github$3e$__["Github"], {
+                                        size: 16
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/sections/Hero.tsx",
+                                        lineNumber: 86,
+                                        columnNumber: 13
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    "93"
+                                ]
+                            }, void 0, true, {
                                 fileName: "[project]/components/sections/Hero.tsx",
                                 lineNumber: 79,
                                 columnNumber: 11
-                            }, ("TURBOPACK compile-time value", void 0)),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "text-neutral-700 hidden sm:inline",
-                                children: "·"
-                            }, void 0, false, {
+                            }, ("TURBOPACK compile-time value", void 0))
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/components/sections/Hero.tsx",
+                        lineNumber: 68,
+                        columnNumber: 9
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex flex-col gap-5 px-4 sm:flex-row sm:items-end sm:justify-between sm:px-8",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].h1, {
+                                        custom: 2,
+                                        variants: fadeUp,
+                                        initial: "hidden",
+                                        animate: "show",
+                                        className: "theme-serif text-[2.6rem] leading-none text-[var(--foreground)] sm:text-[4rem]",
+                                        children: "Anand Kumar"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/sections/Hero.tsx",
+                                        lineNumber: 93,
+                                        columnNumber: 13
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].p, {
+                                        custom: 3,
+                                        variants: fadeUp,
+                                        initial: "hidden",
+                                        animate: "show",
+                                        className: "theme-text-soft mt-2 text-sm",
+                                        children: "22 • engineer • developer • builder"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/sections/Hero.tsx",
+                                        lineNumber: 102,
+                                        columnNumber: 13
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                ]
+                            }, void 0, true, {
                                 fileName: "[project]/components/sections/Hero.tsx",
-                                lineNumber: 82,
+                                lineNumber: 92,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "text-neutral-500 font-mono text-sm md:text-base",
-                                children: "CS Student @ KIIT-DU"
-                            }, void 0, false, {
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                                custom: 4,
+                                variants: fadeUp,
+                                initial: "hidden",
+                                animate: "show",
+                                className: "flex flex-wrap gap-2",
+                                children: [
+                                    socialLinks.map((item)=>{
+                                        const Icon = item.icon;
+                                        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                            href: item.href,
+                                            target: item.href.startsWith("http") ? "_blank" : undefined,
+                                            rel: item.href.startsWith("http") ? "noopener noreferrer" : undefined,
+                                            "aria-label": item.label,
+                                            className: "theme-icon-button flex h-10 w-10 items-center justify-center rounded-full theme-text-muted hover:text-[var(--foreground)]",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Icon, {
+                                                size: 16
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/sections/Hero.tsx",
+                                                lineNumber: 131,
+                                                columnNumber: 19
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        }, item.label, false, {
+                                            fileName: "[project]/components/sections/Hero.tsx",
+                                            lineNumber: 123,
+                                            columnNumber: 17
+                                        }, ("TURBOPACK compile-time value", void 0));
+                                    }),
+                                    mounted && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        type: "button",
+                                        onClick: ()=>setTheme(isDark ? "light" : "dark"),
+                                        "aria-label": isDark ? "Switch to light theme" : "Switch to dark theme",
+                                        className: "theme-icon-button flex h-10 w-10 items-center justify-center rounded-full theme-text-muted hover:text-[var(--foreground)]",
+                                        children: isDark ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$sun$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Sun$3e$__["Sun"], {
+                                            size: 16
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/sections/Hero.tsx",
+                                            lineNumber: 142,
+                                            columnNumber: 27
+                                        }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$moon$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Moon$3e$__["Moon"], {
+                                            size: 16
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/sections/Hero.tsx",
+                                            lineNumber: 142,
+                                            columnNumber: 47
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/sections/Hero.tsx",
+                                        lineNumber: 136,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                ]
+                            }, void 0, true, {
                                 fileName: "[project]/components/sections/Hero.tsx",
-                                lineNumber: 83,
-                                columnNumber: 11
-                            }, ("TURBOPACK compile-time value", void 0)),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "text-neutral-700 hidden sm:inline",
-                                children: "·"
-                            }, void 0, false, {
-                                fileName: "[project]/components/sections/Hero.tsx",
-                                lineNumber: 86,
-                                columnNumber: 11
-                            }, ("TURBOPACK compile-time value", void 0)),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "text-neutral-500 font-mono text-sm md:text-base",
-                                children: "Arch Linux btw"
-                            }, void 0, false, {
-                                fileName: "[project]/components/sections/Hero.tsx",
-                                lineNumber: 87,
+                                lineNumber: 113,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/sections/Hero.tsx",
-                        lineNumber: 72,
+                        lineNumber: 91,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/sections/Hero.tsx",
-                lineNumber: 59,
+                lineNumber: 67,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].p, {
-                custom: 3,
-                variants: fadeUp,
-                initial: "hidden",
-                animate: "show",
-                className: "max-w-xl text-neutral-400 text-base md:text-lg leading-relaxed mb-10",
-                children: [
-                    "I build",
-                    " ",
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: "text-neutral-200 font-medium",
-                        children: "full-stack web applications"
-                    }, void 0, false, {
-                        fileName: "[project]/components/sections/Hero.tsx",
-                        lineNumber: 102,
-                        columnNumber: 9
-                    }, ("TURBOPACK compile-time value", void 0)),
-                    " ",
-                    "— from UAV simulation dashboards to habit trackers. I ship fast, learn faster, and keep the code clean.",
-                    " ",
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: "text-neutral-500",
-                        children: "Currently looking for a summer internship."
-                    }, void 0, false, {
-                        fileName: "[project]/components/sections/Hero.tsx",
-                        lineNumber: 107,
-                        columnNumber: 9
-                    }, ("TURBOPACK compile-time value", void 0))
-                ]
-            }, void 0, true, {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "theme-divider mt-8"
+            }, void 0, false, {
                 fileName: "[project]/components/sections/Hero.tsx",
-                lineNumber: 94,
-                columnNumber: 7
-            }, ("TURBOPACK compile-time value", void 0)),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                custom: 4,
-                variants: fadeUp,
-                initial: "hidden",
-                animate: "show",
-                className: "flex flex-wrap items-center gap-3 mb-14",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                        href: "#projects",
-                        className: "inline-flex items-center gap-2 px-5 py-2.5 bg-white text-black text-sm font-semibold rounded-xl hover:bg-neutral-200 transition-colors",
-                        children: [
-                            "View Projects",
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$down$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowDown$3e$__["ArrowDown"], {
-                                size: 14
-                            }, void 0, false, {
-                                fileName: "[project]/components/sections/Hero.tsx",
-                                lineNumber: 125,
-                                columnNumber: 11
-                            }, ("TURBOPACK compile-time value", void 0))
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/sections/Hero.tsx",
-                        lineNumber: 120,
-                        columnNumber: 9
-                    }, ("TURBOPACK compile-time value", void 0)),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                        href: "#contact",
-                        className: "inline-flex items-center gap-2 px-5 py-2.5 bg-transparent text-neutral-300 text-sm font-semibold border border-neutral-800 rounded-xl hover:border-neutral-600 hover:text-white transition-all",
-                        children: "Get in Touch"
-                    }, void 0, false, {
-                        fileName: "[project]/components/sections/Hero.tsx",
-                        lineNumber: 127,
-                        columnNumber: 9
-                    }, ("TURBOPACK compile-time value", void 0)),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                        href: "/New_Resume.pdf",
-                        download: "Anand_Kumar_Resume.pdf",
-                        className: "inline-flex items-center gap-2 px-5 py-2.5 bg-transparent text-neutral-500 text-sm font-medium border border-neutral-900 rounded-xl hover:text-neutral-300 hover:border-neutral-700 transition-all",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$file$2d$text$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__FileText$3e$__["FileText"], {
-                                size: 14
-                            }, void 0, false, {
-                                fileName: "[project]/components/sections/Hero.tsx",
-                                lineNumber: 138,
-                                columnNumber: 11
-                            }, ("TURBOPACK compile-time value", void 0)),
-                            "Resume"
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/sections/Hero.tsx",
-                        lineNumber: 133,
-                        columnNumber: 9
-                    }, ("TURBOPACK compile-time value", void 0))
-                ]
-            }, void 0, true, {
-                fileName: "[project]/components/sections/Hero.tsx",
-                lineNumber: 113,
+                lineNumber: 149,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -297,112 +282,88 @@ const Hero = ()=>{
                 variants: fadeUp,
                 initial: "hidden",
                 animate: "show",
-                className: "flex flex-wrap gap-6 sm:gap-10 pt-8 border-t border-neutral-900",
+                className: "px-4 py-8 sm:px-8",
                 children: [
-                    stats.map((stat)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex flex-col gap-1",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex items-center gap-1.5 text-neutral-600 text-xs uppercase tracking-widest font-medium",
-                                    children: [
-                                        stat.icon,
-                                        stat.label
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/components/sections/Hero.tsx",
-                                    lineNumber: 153,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-2xl font-black text-white tracking-tight",
-                                    children: stat.value
-                                }, void 0, false, {
-                                    fileName: "[project]/components/sections/Hero.tsx",
-                                    lineNumber: 157,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0))
-                            ]
-                        }, stat.label, true, {
-                            fileName: "[project]/components/sections/Hero.tsx",
-                            lineNumber: 152,
-                            columnNumber: 11
-                        }, ("TURBOPACK compile-time value", void 0))),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "hidden sm:block w-px bg-neutral-900 self-stretch mx-2"
-                    }, void 0, false, {
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "max-w-4xl text-lg leading-[1.75] theme-text-muted",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "text-[var(--foreground)]",
+                                children: "I build from zero."
+                            }, void 0, false, {
+                                fileName: "[project]/components/sections/Hero.tsx",
+                                lineNumber: 159,
+                                columnNumber: 11
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            " ",
+                            "Full-stack developer focused on clean product work, practical engineering, and shipping things people actually use. From frontend to backend to deployment, I care more about the result than the stack debate."
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/components/sections/Hero.tsx",
-                        lineNumber: 164,
+                        lineNumber: 158,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex items-end gap-3 pb-1",
+                        className: "mt-6 flex flex-wrap gap-3",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                href: "https://github.com/Anand-1812",
-                                target: "_blank",
-                                rel: "noopener noreferrer",
-                                "aria-label": "GitHub",
-                                className: "p-2 rounded-xl text-neutral-600 hover:text-white hover:bg-neutral-900 border border-transparent hover:border-neutral-800 transition-all",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$github$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Github$3e$__["Github"], {
-                                    size: 16
-                                }, void 0, false, {
-                                    fileName: "[project]/components/sections/Hero.tsx",
-                                    lineNumber: 173,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0))
+                                href: "#about",
+                                className: "inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm theme-line theme-text-muted hover:text-[var(--foreground)]",
+                                children: "About"
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/Hero.tsx",
-                                lineNumber: 166,
+                                lineNumber: 167,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                href: "https://leetcode.com/anand_1812",
-                                target: "_blank",
-                                rel: "noopener noreferrer",
-                                "aria-label": "LeetCode",
-                                className: "p-2 rounded-xl text-neutral-600 hover:text-[#FFA116] hover:bg-neutral-900 border border-transparent hover:border-neutral-800 transition-all",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                    width: "16",
-                                    height: "16",
-                                    viewBox: "0 0 24 24",
-                                    fill: "currentColor",
-                                    "aria-hidden": true,
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                        d: "M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"
+                                href: "#github",
+                                className: "inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm theme-line theme-text-muted hover:text-[var(--foreground)]",
+                                children: [
+                                    "GitHub",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$down$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowDown$3e$__["ArrowDown"], {
+                                        size: 14
                                     }, void 0, false, {
                                         fileName: "[project]/components/sections/Hero.tsx",
-                                        lineNumber: 190,
-                                        columnNumber: 15
+                                        lineNumber: 178,
+                                        columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0))
-                                }, void 0, false, {
-                                    fileName: "[project]/components/sections/Hero.tsx",
-                                    lineNumber: 183,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0))
-                            }, void 0, false, {
+                                ]
+                            }, void 0, true, {
                                 fileName: "[project]/components/sections/Hero.tsx",
-                                lineNumber: 175,
+                                lineNumber: 173,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/sections/Hero.tsx",
-                        lineNumber: 165,
+                        lineNumber: 166,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/sections/Hero.tsx",
-                lineNumber: 144,
+                lineNumber: 151,
+                columnNumber: 7
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "theme-divider"
+            }, void 0, false, {
+                fileName: "[project]/components/sections/Hero.tsx",
+                lineNumber: 183,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/components/sections/Hero.tsx",
-        lineNumber: 30,
+        lineNumber: 53,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
+_s(Hero, "t8+WCtmY6Q/K+YFmVfyga28+HWc=", false, function() {
+    return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$themes$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTheme"]
+    ];
+});
 _c = Hero;
 var _c;
 __turbopack_context__.k.register(_c, "Hero");
@@ -446,7 +407,7 @@ const SectionWrapper = ({ id, children, className = "", noBorder = false })=>{
                 1
             ]
         },
-        className: `px-6 md:px-10 py-16 ${!noBorder ? "border-b border-neutral-900" : ""} ${className}`,
+        className: `px-4 py-6 sm:px-8 ${!noBorder ? "theme-divider" : ""} ${className}`,
         children: children
     }, void 0, false, {
         fileName: "[project]/components/ui/SectionWrapper.tsx",
@@ -690,13 +651,14 @@ const itemVariants = {
 const About = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$SectionWrapper$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SectionWrapper"], {
         id: "about",
+        className: "pt-8",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                className: "text-3xl font-bold text-white mb-10 tracking-tight",
+                className: "theme-serif mb-6 text-xl opacity-30",
                 children: "About"
             }, void 0, false, {
                 fileName: "[project]/components/sections/About.tsx",
-                lineNumber: 90,
+                lineNumber: 89,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -704,11 +666,11 @@ const About = ()=>{
                 children: skillGroups.map((group)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-[10px] uppercase tracking-widest text-neutral-600 font-bold mb-3",
+                                className: "mb-3 text-[10px] font-bold uppercase tracking-widest theme-text-soft",
                                 children: group.label
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/About.tsx",
-                                lineNumber: 98,
+                                lineNumber: 96,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -725,7 +687,7 @@ const About = ()=>{
                                         style: {
                                             borderColor: `${skill.color}18`
                                         },
-                                        className: "flex items-center gap-2 px-3 py-1.5 bg-neutral-900/50 border rounded-xl text-sm font-medium hover:bg-neutral-900 transition-all group cursor-default",
+                                        className: "flex cursor-default items-center gap-2 rounded-full border bg-white/[0.02] px-3 py-1.5 text-sm font-medium group theme-line",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 style: {
@@ -735,37 +697,37 @@ const About = ()=>{
                                                 children: skill.icon
                                             }, void 0, false, {
                                                 fileName: "[project]/components/sections/About.tsx",
-                                                lineNumber: 116,
+                                                lineNumber: 113,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "text-neutral-300",
+                                                className: "text-[var(--foreground)]",
                                                 children: skill.name
                                             }, void 0, false, {
                                                 fileName: "[project]/components/sections/About.tsx",
-                                                lineNumber: 122,
+                                                lineNumber: 119,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, skill.name, true, {
                                         fileName: "[project]/components/sections/About.tsx",
-                                        lineNumber: 109,
+                                        lineNumber: 107,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0)))
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/About.tsx",
-                                lineNumber: 101,
+                                lineNumber: 99,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, group.label, true, {
                         fileName: "[project]/components/sections/About.tsx",
-                        lineNumber: 97,
+                        lineNumber: 95,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0)))
             }, void 0, false, {
                 fileName: "[project]/components/sections/About.tsx",
-                lineNumber: 95,
+                lineNumber: 93,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
@@ -790,207 +752,184 @@ __turbopack_context__.s([
     ()=>GithubActivity
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$github$2d$calendar$2f$build$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-github-calendar/build/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$github$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Github$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/github.js [app-client] (ecmascript) <export default as Github>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$SectionWrapper$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/ui/SectionWrapper.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$themes$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next-themes/dist/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
 "use client";
 ;
 ;
 ;
 ;
 ;
-const neutralDarkTheme = {
+const contributionTheme = {
     light: [
-        "#171717",
-        "#262626",
-        "#404040",
-        "#737373",
-        "#e5e5e5"
+        "#ebedf0",
+        "#9be9a8",
+        "#40c463",
+        "#30a14e",
+        "#216e39"
     ],
     dark: [
-        "#171717",
-        "#262626",
-        "#404040",
-        "#737373",
-        "#e5e5e5"
+        "#161b22",
+        "#0e4429",
+        "#006d32",
+        "#26a641",
+        "#39d353"
     ]
 };
-const legendSquares = [
-    {
-        bg: "bg-neutral-900",
-        label: "None"
-    },
-    {
-        bg: "bg-neutral-700",
-        label: "Low"
-    },
-    {
-        bg: "bg-neutral-500",
-        label: "Mid"
-    },
-    {
-        bg: "bg-neutral-300",
-        label: "High"
-    },
-    {
-        bg: "bg-white",
-        label: "Max"
-    }
-];
+const legendSquares = {
+    dark: [
+        "#161b22",
+        "#0e4429",
+        "#006d32",
+        "#26a641",
+        "#39d353"
+    ],
+    light: [
+        "#ebedf0",
+        "#9be9a8",
+        "#40c463",
+        "#30a14e",
+        "#216e39"
+    ]
+};
 const GithubActivity = ()=>{
+    _s();
+    const { resolvedTheme } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$themes$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTheme"])();
+    const [mounted, setMounted] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const activeLegend = resolvedTheme === "light" ? legendSquares.light : legendSquares.dark;
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "GithubActivity.useEffect": ()=>{
+            setMounted(true);
+        }
+    }["GithubActivity.useEffect"], []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$SectionWrapper$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SectionWrapper"], {
         id: "github",
+        className: "pt-8",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-8",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        className: "text-3xl font-bold text-white tracking-tight",
-                        children: "GitHub Activity"
+                        className: "theme-serif text-xl opacity-30",
+                        children: "GitHub Contributions"
                     }, void 0, false, {
                         fileName: "[project]/components/sections/GithubActivity.tsx",
-                        lineNumber: 26,
+                        lineNumber: 32,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                         href: "https://github.com/Anand-1812",
                         target: "_blank",
                         rel: "noopener noreferrer",
-                        className: "inline-flex items-center gap-2 text-xs text-neutral-500 hover:text-neutral-300 font-mono transition-colors",
+                        className: "inline-flex items-center gap-2 text-xs theme-text-soft hover:text-[var(--foreground)]",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$github$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Github$3e$__["Github"], {
                                 size: 13
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/GithubActivity.tsx",
-                                lineNumber: 35,
+                                lineNumber: 41,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             "Anand-1812"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/sections/GithubActivity.tsx",
-                        lineNumber: 29,
+                        lineNumber: 35,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/sections/GithubActivity.tsx",
-                lineNumber: 25,
+                lineNumber: 31,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                initial: {
-                    opacity: 0,
-                    y: 16
-                },
-                whileInView: {
-                    opacity: 1,
-                    y: 0
-                },
-                viewport: {
-                    once: true,
-                    margin: "-60px"
-                },
-                transition: {
-                    duration: 0.55,
-                    ease: [
-                        0.22,
-                        1,
-                        0.36,
-                        1
-                    ]
-                },
-                className: "relative p-6 bg-neutral-900/40 border border-neutral-900 rounded-3xl overflow-hidden hover:border-neutral-800 transition-colors duration-300 group",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "overflow-hidden rounded-xl",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        "aria-hidden": true,
-                        className: "pointer-events-none absolute -top-10 -right-10 w-48 h-48 rounded-full bg-white/[0.015] blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"
-                    }, void 0, false, {
-                        fileName: "[project]/components/sections/GithubActivity.tsx",
-                        lineNumber: 50,
-                        columnNumber: 9
-                    }, ("TURBOPACK compile-time value", void 0)),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "overflow-x-auto",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$github$2d$calendar$2f$build$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["GitHubCalendar"], {
+                        children: mounted ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$github$2d$calendar$2f$build$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["GitHubCalendar"], {
                             username: "Anand-1812",
-                            theme: neutralDarkTheme,
-                            blockSize: 12,
-                            blockMargin: 4
+                            colorScheme: resolvedTheme === "light" ? "light" : "dark",
+                            theme: contributionTheme,
+                            blockSize: 10,
+                            blockMargin: 4,
+                            fontSize: 14
+                        }, void 0, false, {
+                            fileName: "[project]/components/sections/GithubActivity.tsx",
+                            lineNumber: 49,
+                            columnNumber: 13
+                        }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "h-[140px] w-full animate-pulse rounded-xl bg-white/[0.03]"
                         }, void 0, false, {
                             fileName: "[project]/components/sections/GithubActivity.tsx",
                             lineNumber: 58,
-                            columnNumber: 11
+                            columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/components/sections/GithubActivity.tsx",
-                        lineNumber: 57,
+                        lineNumber: 47,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "mt-5 flex flex-wrap justify-between items-center gap-3",
+                        className: "mt-4 flex flex-wrap items-center justify-end gap-1.5 text-sm theme-text-muted",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "text-[10px] uppercase tracking-[0.18em] text-neutral-700 font-bold select-none",
-                                children: "Contribution Archive"
+                                className: "mr-1 text-[10px]",
+                                children: "Less"
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/GithubActivity.tsx",
-                                lineNumber: 68,
+                                lineNumber: 63,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex items-center gap-1.5",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-[10px] text-neutral-700 font-mono mr-1",
-                                        children: "Less"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/sections/GithubActivity.tsx",
-                                        lineNumber: 74,
-                                        columnNumber: 13
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    legendSquares.map((sq)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            title: sq.label,
-                                            className: `h-3 w-3 rounded-sm ${sq.bg}`
-                                        }, sq.label, false, {
-                                            fileName: "[project]/components/sections/GithubActivity.tsx",
-                                            lineNumber: 78,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0))),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-[10px] text-neutral-700 font-mono ml-1",
-                                        children: "More"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/sections/GithubActivity.tsx",
-                                        lineNumber: 84,
-                                        columnNumber: 13
-                                    }, ("TURBOPACK compile-time value", void 0))
-                                ]
-                            }, void 0, true, {
+                            activeLegend.map((color, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    title: `Level ${index}`,
+                                    className: "h-3 w-3 rounded-sm",
+                                    style: {
+                                        backgroundColor: color
+                                    }
+                                }, color, false, {
+                                    fileName: "[project]/components/sections/GithubActivity.tsx",
+                                    lineNumber: 65,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0))),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "ml-1 text-[10px]",
+                                children: "More"
+                            }, void 0, false, {
                                 fileName: "[project]/components/sections/GithubActivity.tsx",
-                                lineNumber: 73,
+                                lineNumber: 72,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/sections/GithubActivity.tsx",
-                        lineNumber: 67,
+                        lineNumber: 62,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/sections/GithubActivity.tsx",
-                lineNumber: 41,
+                lineNumber: 46,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/components/sections/GithubActivity.tsx",
-        lineNumber: 23,
+        lineNumber: 30,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
+_s(GithubActivity, "7mWKygn7kk6b3+dTNlroOqQjeIs=", false, function() {
+    return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2d$themes$2f$dist$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTheme"]
+    ];
+});
 _c = GithubActivity;
 var _c;
 __turbopack_context__.k.register(_c, "GithubActivity");
@@ -1116,7 +1055,7 @@ const Contact = ()=>{
             setTimeout(()=>setStatus("idle"), 4000);
         }, 600);
     };
-    const inputBase = "w-full bg-neutral-900/50 border border-neutral-800 rounded-xl px-4 py-3 text-sm text-neutral-200 placeholder:text-neutral-600 outline-none transition-all duration-200 focus:border-neutral-600 focus:bg-neutral-900";
+    const inputBase = "w-full rounded-2xl border px-4 py-3 text-sm text-[var(--foreground)] outline-none placeholder:text-[var(--soft)] theme-line theme-panel-soft";
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$SectionWrapper$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SectionWrapper"], {
         id: "contact",
         noBorder: true,
@@ -1139,11 +1078,11 @@ const Contact = ()=>{
                         transition: {
                             duration: 0.5
                         },
-                        className: "text-5xl md:text-6xl font-black text-white tracking-tighter mb-3 uppercase",
+                        className: "theme-serif mb-3 text-5xl tracking-tight text-[var(--foreground)] md:text-6xl",
                         children: "Get in Touch"
                     }, void 0, false, {
                         fileName: "[project]/components/sections/Contact.tsx",
-                        lineNumber: 103,
+                        lineNumber: 102,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -1162,17 +1101,17 @@ const Contact = ()=>{
                             duration: 0.5,
                             delay: 0.1
                         },
-                        className: "text-neutral-500 text-base font-mono italic",
+                        className: "theme-text-muted text-base italic",
                         children: "I'm open to internship opportunities — shoot me a message."
                     }, void 0, false, {
                         fileName: "[project]/components/sections/Contact.tsx",
-                        lineNumber: 112,
+                        lineNumber: 111,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/sections/Contact.tsx",
-                lineNumber: 102,
+                lineNumber: 101,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1197,11 +1136,11 @@ const Contact = ()=>{
                         className: "flex flex-col gap-3",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-[10px] uppercase tracking-widest text-neutral-600 font-bold mb-1",
+                                className: "mb-1 text-[10px] font-bold uppercase tracking-widest theme-text-soft",
                                 children: "Find me on"
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/Contact.tsx",
-                                lineNumber: 132,
+                                lineNumber: 130,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             socials.map((s)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1209,8 +1148,7 @@ const Contact = ()=>{
                                     target: s.label !== "Email" ? "_blank" : undefined,
                                     rel: s.label !== "Email" ? "noopener noreferrer" : undefined,
                                     "aria-label": s.label,
-                                    className: `flex items-center gap-4 px-4 py-3 bg-neutral-900/40 border border-neutral-900
-                rounded-2xl text-neutral-400 transition-all duration-200 group
+                                    className: `theme-panel flex items-center gap-4 rounded-2xl border px-4 py-3 theme-line theme-text-muted transition-all duration-200 group
                 ${s.hoverColor} ${s.hoverBorder}`,
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1218,44 +1156,44 @@ const Contact = ()=>{
                                             children: s.icon
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/Contact.tsx",
-                                            lineNumber: 146,
+                                            lineNumber: 143,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "flex flex-col min-w-0",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "text-xs font-bold uppercase tracking-wider text-neutral-500 group-hover:text-current transition-colors",
+                                                    className: "text-xs font-bold uppercase tracking-wider theme-text-soft group-hover:text-current transition-colors",
                                                     children: s.label
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/sections/Contact.tsx",
-                                                    lineNumber: 150,
+                                                    lineNumber: 147,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "text-sm font-mono truncate",
+                                                    className: "truncate text-sm",
                                                     children: s.handle
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/sections/Contact.tsx",
-                                                    lineNumber: 153,
+                                                    lineNumber: 150,
                                                     columnNumber: 17
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/sections/Contact.tsx",
-                                            lineNumber: 149,
+                                            lineNumber: 146,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, s.label, true, {
                                     fileName: "[project]/components/sections/Contact.tsx",
-                                    lineNumber: 136,
+                                    lineNumber: 134,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/sections/Contact.tsx",
-                        lineNumber: 125,
+                        lineNumber: 123,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1276,11 +1214,11 @@ const Contact = ()=>{
                         },
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-[10px] uppercase tracking-widest text-neutral-600 font-bold mb-4",
+                                className: "mb-4 text-[10px] font-bold uppercase tracking-widest theme-text-soft",
                                 children: "Send a message"
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/Contact.tsx",
-                                lineNumber: 166,
+                                lineNumber: 162,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -1296,7 +1234,7 @@ const Contact = ()=>{
                                                 children: "Name"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/sections/Contact.tsx",
-                                                lineNumber: 173,
+                                                lineNumber: 168,
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1311,13 +1249,13 @@ const Contact = ()=>{
                                                 className: inputBase
                                             }, void 0, false, {
                                                 fileName: "[project]/components/sections/Contact.tsx",
-                                                lineNumber: 176,
+                                                lineNumber: 171,
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/sections/Contact.tsx",
-                                        lineNumber: 172,
+                                        lineNumber: 167,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1328,7 +1266,7 @@ const Contact = ()=>{
                                                 children: "Email"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/sections/Contact.tsx",
-                                                lineNumber: 191,
+                                                lineNumber: 185,
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1343,13 +1281,13 @@ const Contact = ()=>{
                                                 className: inputBase
                                             }, void 0, false, {
                                                 fileName: "[project]/components/sections/Contact.tsx",
-                                                lineNumber: 194,
+                                                lineNumber: 188,
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/sections/Contact.tsx",
-                                        lineNumber: 190,
+                                        lineNumber: 184,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1360,7 +1298,7 @@ const Contact = ()=>{
                                                 children: "Message"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/sections/Contact.tsx",
-                                                lineNumber: 209,
+                                                lineNumber: 202,
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
@@ -1374,13 +1312,13 @@ const Contact = ()=>{
                                                 className: `${inputBase} resize-none`
                                             }, void 0, false, {
                                                 fileName: "[project]/components/sections/Contact.tsx",
-                                                lineNumber: 212,
+                                                lineNumber: 205,
                                                 columnNumber: 15
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/sections/Contact.tsx",
-                                        lineNumber: 208,
+                                        lineNumber: 201,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     status === "error" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -1392,20 +1330,20 @@ const Contact = ()=>{
                                             opacity: 1,
                                             y: 0
                                         },
-                                        className: "flex items-center gap-2 text-xs text-red-400 font-mono",
+                                        className: "flex items-center gap-2 text-xs text-red-400",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$alert$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__AlertCircle$3e$__["AlertCircle"], {
                                                 size: 13
                                             }, void 0, false, {
                                                 fileName: "[project]/components/sections/Contact.tsx",
-                                                lineNumber: 231,
+                                                lineNumber: 223,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             "Please fill in all fields before sending."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/sections/Contact.tsx",
-                                        lineNumber: 226,
+                                        lineNumber: 218,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     status === "success" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].p, {
@@ -1417,26 +1355,26 @@ const Contact = ()=>{
                                             opacity: 1,
                                             y: 0
                                         },
-                                        className: "flex items-center gap-2 text-xs text-green-400 font-mono",
+                                        className: "flex items-center gap-2 text-xs text-green-500",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle2$3e$__["CheckCircle2"], {
                                                 size: 13
                                             }, void 0, false, {
                                                 fileName: "[project]/components/sections/Contact.tsx",
-                                                lineNumber: 242,
+                                                lineNumber: 234,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             "Mail client opened — message ready to send!"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/sections/Contact.tsx",
-                                        lineNumber: 237,
+                                        lineNumber: 229,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         type: "submit",
                                         disabled: status === "sending" || status === "success",
-                                        className: "mt-1 inline-flex items-center justify-center gap-2 px-5 py-3 bg-white text-black text-sm font-semibold rounded-xl hover:bg-neutral-200 transition-colors disabled:opacity-40 disabled:cursor-not-allowed",
+                                        className: "mt-1 inline-flex items-center justify-center gap-2 rounded-full border px-5 py-3 text-sm font-semibold text-[var(--foreground)] theme-line theme-icon-button disabled:cursor-not-allowed disabled:opacity-40",
                                         children: status === "sending" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].span, {
@@ -1448,10 +1386,10 @@ const Contact = ()=>{
                                                         duration: 0.8,
                                                         ease: "linear"
                                                     },
-                                                    className: "inline-block w-4 h-4 border-2 border-black/30 border-t-black rounded-full"
+                                                    className: "inline-block h-4 w-4 rounded-full border-2 border-current/30 border-t-current"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/sections/Contact.tsx",
-                                                    lineNumber: 257,
+                                                    lineNumber: 246,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 "Sending…"
@@ -1462,7 +1400,7 @@ const Contact = ()=>{
                                                     size: 16
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/sections/Contact.tsx",
-                                                    lineNumber: 266,
+                                                    lineNumber: 255,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 "Sent!"
@@ -1473,7 +1411,7 @@ const Contact = ()=>{
                                                     size: 14
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/sections/Contact.tsx",
-                                                    lineNumber: 271,
+                                                    lineNumber: 260,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 "Send Message"
@@ -1481,25 +1419,25 @@ const Contact = ()=>{
                                         }, void 0, true)
                                     }, void 0, false, {
                                         fileName: "[project]/components/sections/Contact.tsx",
-                                        lineNumber: 248,
+                                        lineNumber: 239,
                                         columnNumber: 13
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/sections/Contact.tsx",
-                                lineNumber: 170,
+                                lineNumber: 166,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/sections/Contact.tsx",
-                        lineNumber: 160,
+                        lineNumber: 156,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/sections/Contact.tsx",
-                lineNumber: 123,
+                lineNumber: 122,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
